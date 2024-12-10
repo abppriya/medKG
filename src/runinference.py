@@ -68,29 +68,8 @@ query_name_dict = {('e',('r',)): '1p',
                     (('e', ('r',)), ('e', ('r',)), ('u')):'2u',
                     (('e', ('r',)), ('e', ('r',)), ('u'),('r')):'up'
                 }
-'''
-test_queries = {}
 
-print("test")
-t_queries = pickle.load(open(os.path.join('.','test-queries.pkl'), 'rb'))
-
-count = 0
-for query, answer in t_queries.items() :
-    count +=1 
-    if count == 2:
-        test_queries[query] = answer
-        break
-        
-print(test_queries)
-'''
 test_queries = {(('e', ('r',)), ('e',('r',))): {((2241, (31,)), (2484, (91,)))}}
-
-'''
-test_queries = pickle.load(open("test-queries.pkl", 'rb'))
-((620, (16,)), (1271, (4,)))
-test_queries[(('e', ('r',)), ('e',('r',)))] = {((2241, (31,)), (2484, (91,)))}
-print( test_queries[(('e', ('r',)), ('e',('r',)))])
-'''
 
 nentity = 4923
 nrelation = 264
@@ -184,7 +163,6 @@ with torch.no_grad():
         rid_entity2 , label2 = getorkglabel(2484, id2ent)
         
         print(f"Query ({rid_entity1}:{label1}, is venueof) AND ({rid_entity2}:{label2}, Is reasearch problem) ")
-        #print(f"Query Relations {id2rel[15]} {id2rel[10]} {id2rel[7]}")
 
         print("Ranked candidate answer")
         for i in flat_list :
