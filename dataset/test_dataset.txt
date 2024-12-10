@@ -1,0 +1,1375 @@
+R111749	doi	10.3758/s13415-019-00731-1
+R569893	publication month	10
+R569821	stimulation intensity selection approach	R254179
+R595160	research field	R58
+R570470	research field	R61
+R569897	contribution	R569900
+R570421	research field	R61
+R569462	coil size	75
+R569421	coil model	R254360
+R111723	publication month	6
+R570138	stimulation intensity selection approach	R254177
+R634527	has list element	Errol H. Baker
+R569628	stimulation intensity selection approach	R254177
+R569728	contribution	R569739
+R634680	has list element	Hannah Palmer
+R569555	coil size	70
+R634606	has list element	Yoichi Katayama
+R570069	publication month	12
+R634399	has list element	Urszula Zuchowicz
+R634570	has list element	Eric Guedj
+R569509	threshold-estimation strategies 	R254301
+R110065	doi	10.1007/978-3-319-12637-1_53
+R569556	type of rTMS	R254150
+R569714	amplitude of the motor evoked potential in microvolt	50
+R634499	has list element	Tobias Pflugshaupt
+R569978	note	protocol: 600 pulses; group: control
+R570125	stimulator company	R254311
+R569752	maximum stimulator output	67
+R634476	has list element	Demis Basso
+R64	has synonym	Human Cognitive and Systems Neuroscience
+R569843	authors	R634508
+R569648	threshold ratio	5_10
+R569464	authors	R634408
+R569701	venue	R569703
+R570324	threshold ratio	0.5
+R569924	note	site: M1c
+R569850	coil shape	R254353
+R634493	has list element	Savitha Eranti
+R569749	threshold ratio	5_10
+R569659	threshold measurement	R254307
+R569970	amplitude of the motor evoked potential in microvolt	50
+R570245	stimulation intensity selection approach	R254179
+R570380	note	coil_siz: wing diameter
+R570049	note	group: FXS
+R569841	intraburst frequency 	5
+R569383	authors	R634387
+R570493	coil size	70
+R618590	has list element	R111722
+R569445	threshold measurement	R254307
+R569662	note	multiple stimulators; frq: 6 Hz iTBS; coil: defined for spTMS
+R570426	stimulation intensity selection approach	R254178
+R570576	note	si_app: or 90% AMT; MSO individual: Table 1
+R570155	doi	10.1016/j.schres.2013.06.015
+R634436	has list element	R. Christopher Miall
+R570122	contribution	R570128
+R570410	threshold measurement	R254307
+R634592	has list element	Masaki Sekino
+R570005	amplitude of the motor evoked potential in microvolt	50
+R634443	has list element	John Rothwell
+R570388	venue	R570389
+R570507	intraburst frequency 	10
+R570454	publication month	11
+R570606	threshold ratio	5_10
+R570473	maximum stimulator output	49
+R634631	has list element	Fujun Jia
+R570497	type of rTMS	R254150
+R634621	has list element	Serena Indovino
+R570384	doi	10.1007/s00234-016-1685-y
+R569804	stimulator company	R254311
+R570527	coil size	75
+R570053	amplitude of the motor evoked potential in microvolt	50
+R569476	contribution	R569479
+R569706	stimulator company	R254311
+R634654	has list element	Maxime Guye
+R569660	maximum stimulator output	34.4
+R570360	publication month	6
+R618591	has list element	B. Renner
+R570327	threshold-estimation strategies 	R254301
+R570249	stimulator company	R254311
+R570238	coil size	70
+R569957	publication year	2010
+R569546	publication month	8
+R570489	maximum stimulator output	29.2
+R569616	stimulator model 	R254325
+R569482	stimulator company	R254311
+R634520	has list element	A.M. Speer
+R634388	has list element	S. Bestmann
+R570622	doi	10.3389/fnins.2020.00576
+R570597	coil size	70
+R617421	has list element	K. G. Lynch
+R570530	stimulation intensity selection approach	R254178
+R570205	contribution	R570207
+R595152	description	We want to understand what type of light interventions are reported in the literature and what their purposes is. We also want to compare differences in the interventions and evaluate their effectiveness on various (health) outcomes.
+R634408	has list element	Kou Murayama
+R569706	amplitude of the motor evoked potential in microvolt	50
+R569590	research field	R61
+R569808	note	site: SPL
+R570192	coil shape	R254353
+R569813	threshold-estimation strategies 	R254301
+R570324	stimulator model 	R254337
+R634643	has list element	Hyeongrae Lee
+R569616	threshold-estimation strategies 	R254301
+R570190	type of rTMS	R254150
+R634529	has list element	Jon Driver
+R570567	note	group: rTMS + ADP; si_app: MT and tolerability threshold, hence si_pct range
+R569990	stimulation intensity selection approach	R254177
+R569865	type of rTMS	R254150
+R570301	coil shape	R254353
+R634687	has list element	Karyn Richardson
+R570137	contribution	R570160
+R569592	coil size	70
+R569666	percentage or the amplitude of the motor threshold contraction	0.1
+R569564	authors	R634437
+R569752	intraburst frequency 	1
+R570137	venue	R570139
+R569895	type of rTMS	R254150
+R569896	maximum stimulator output	70
+R569790	note	site: motor cortex, face, hand, arm
+R634699	has list element	Silvina G Horovitz
+R634642	has list element	Sandro M. Krieg
+R569479	threshold-estimation strategies 	PEST_CITE
+R570559	publication month	12
+R569708	stimulator company	R254311
+R570297	contribution	R570301
+R634619	has list element	Eva-Maria Pool
+R570057	threshold-estimation strategies 	R254301
+R570162	stimulator company	R254310
+R570260	intraburst frequency 	5
+R569861	note	MSO individual: Table 1;coil-scalp distance: 15 mm; mso: defined at 0 mm and 100 RMT
+R570344	coil model	R254374
+R136491	contribution	R136493
+R570548	coil shape	R254353
+R570510	coil model	R254373
+R570255	stimulator company	R254311
+R569745	threshold ratio	5_10
+R569916	contribution	R569918
+R569924	threshold ratio	5_10
+R569764	authors	R634490
+R569485	stimulator model 	R254340
+R615078	has list element	Marija Babunovska
+R570523	note	site: left AC; protocol: bilateral; coil_siz: outer diameter
+R569436	contribution	R569439
+R569489	publication year	2019
+R569478	stimulator company	R254311
+R569500	contribution	R570592
+R569633	venue	R569634
+R570390	coil model	R254381
+R569473	research field	R61
+R570006	research field	R61
+R109008	venue	R109009
+R569686	stimulation intensity selection approach	R254178
+R569594	publication year	2004
+R570618	stimulation intensity selection approach	R254178
+R634463	has list element	I-Hua Wei
+R570053	coil shape	R254353
+R634524	has list element	Francesco Di Lorenzo
+R634634	has list element	Bimal Lakhani
+R569633	publication month	10
+R569577	venue	R569578
+R634624	has list element	Michael J. Banissy
+R570025	contribution	R570029
+R570116	contribution	R570120
+R569435	type of rTMS	R254154
+R570105	threshold measurement	R254307
+R569569	stimulator company	R254311
+R570469	intraburst frequency 	1
+R634462	has list element	Benoit Bediou
+R569416	contribution	R569418
+R570401	coil shape	R254353
+R569499	type of rTMS	R254150
+R634631	has list element	Bin Zhang
+R569971	threshold-estimation strategies 	R254301
+R136169	same as	http://uri.gbv.de/terminology/dfg/206-10
+R569806	type of rTMS	R254150
+R569738	intraburst frequency 	10
+R569478	threshold measurement	R254307
+R570503	stimulation intensity selection approach	R254178
+R570089	publication month	9
+R570419	threshold measurement	R254308
+R570603	intraburst frequency 	1
+R570198	coil size	70
+R634412	has list element	Duy Nguyen
+R634704	has list element	Shan Tian
+R570160	amplitude of the motor evoked potential in microvolt	50
+R570364	stimulator company	R254311
+R570309	threshold measurement	R254307
+R569629	type of rTMS	R254150
+R634617	has list element	Til O. Bergmann
+R569861	stimulator company	R254310
+R570192	threshold measurement	R254308
+R570169	coil shape	R254353
+R570511	threshold ratio	2_3
+R569695	venue	R569696
+R569587	research field	R61
+R570054	research field	R61
+R569544	intraburst frequency 	250
+R700412	mean age	77
+R570214	threshold measurement	R254307
+R634393	has list element	Patricia Klobusiakova
+R570194	stimulation intensity selection approach	R254179
+R570617	intraburst frequency 	1
+R634469	has list element	Gregor Thut
+R634686	has list element	Aaron Kucyi
+R569723	publication month	1
+R569864	stimulator company	R254311
+R634456	has list element	Giacomo Koch
+R634554	has list element	John Rothwell
+R569440	intraburst frequency 	6
+R570442	note	mt_contr: REF25
+R634394	has list element	Yanqiu Wang
+R617389	has list element	Kenneth P. Tercyak
+R634546	has list element	Jacinta O'Shea
+R570528	coil model	R254362
+R634407	has list element	Nga Yan Tse
+R569923	note	site: S1c
+R569895	stimulator model 	R254337
+R569562	stimulator company	R254311
+R569997	stimulation intensity selection approach	R254179
+R615097	has list element	I. Bielen
+R569959	stimulation intensity selection approach	R254178
+R634637	has list element	Julie Kerouac-Laplante
+R634558	has list element	Shinsuke Kito
+R569399	doi	10.1016/j.brs.2017.02.011
+R570307	stimulator model 	R254340
+R634680	has list element	Roberto Cabeza
+R634507	has list element	Giampietro Zanette
+R570568	contribution	R570570
+R569731	stimulator model 	R254336
+R569736	threshold measurement	R254308
+R569537	stimulation intensity selection approach	R254182
+R136479	result	no MSV × SS interaction
+R570511	stimulation intensity selection approach	R254178
+R634523	has list element	Henk W. Berendse
+R569807	threshold-estimation strategies 	R254301
+R569694	research field	R61
+R111725	has_analysis_approach	intersubject correlation analysis 
+R570185	coil shape	R254353
+R570161	threshold ratio	5_10
+R570218	publication year	2011
+R570208	publication month	1
+R570503	coil shape	R254353
+R569612	threshold-estimation strategies 	CITE
+R569992	stimulator company	R254311
+R634508	has list element	Nicola Scaldaferri
+R570005	threshold-estimation strategies 	R254301
+R136437	contribution	R136439
+R569548	intraburst frequency 	20
+R570004	percentage or the amplitude of the motor threshold contraction	15
+R570575	stimulation intensity selection approach	R254178
+R569584	percentage or the amplitude of the motor threshold contraction	0.1
+R570550	stimulation intensity selection approach	R254178
+R570169	intraburst frequency 	1
+R569947	coil size	90
+R569480	contribution	R570571
+R570362	threshold measurement	R254308
+R700420	mean (SD) change in function	5.2
+R569592	coil model	R254367
+R570320	coil shape	R254353
+R634630	has list element	Kate MacIver
+R634671	has list element	Yuanling Jiang
+R634480	has list element	Ola A. Shawky
+R570266	stimulation intensity selection approach	R254177
+R570345	authors	R634640
+R569509	coil size	70
+R569772	intraburst frequency 	10
+R634633	has list element	Didier Bouhassira
+R570075	coil model	R254364
+R570216	threshold measurement	R254307
+R569538	research field	R61
+R634606	has list element	Takamitsu Yamamoto
+R569775	authors	R634492
+R569640	intraburst frequency 	25
+R569678	doi	10.1007/s00221-005-0344-z
+R634615	has list element	Daniele Didino
+R570279	threshold ratio	5_10
+R569476	authors	R634412
+R634660	has list element	Raymond W. Lam
+R569931	coil model	R254364
+R634407	has list element	Paul B. Fitzgerald
+R570052	type of rTMS	R254154
+R569612	intraburst frequency 	1
+R569975	stimulator model 	R254326
+R136439	result	AS and MSV interacted in the inferior frontal, inferior parietal, and fusiform gyri; the precuneus; and the dorsomedial prefrontal cortex
+R570045	threshold measurement	R254307
+R570155	venue	R570157
+R634445	has list element	Brian Murray
+R570566	stimulator model 	R254340
+R569852	coil shape	R254353
+R569700	type of rTMS	R254150
+R634667	has list element	Alexander Rotenberg
+R634550	has list element	Vanessa K. Hinson
+R595160	venue	R595161
+R569622	type of rTMS	R254150
+R570230	type of rTMS	R254150
+R570170	coil model	R254362
+R569566	threshold measurement	R254307
+R569570	contribution	R569572
+R570154	stimulation intensity selection approach	R254178
+R569863	note	MSO individual: Table 1;coil-scalp distance: 25 mm; mso: defined at 0 mm and 100 RMT
+R569848	coil shape	R254353
+R634627	has list element	Marcella Rietschel
+R570405	note	MSO max: 50%
+R570543	research field	R61
+R570517	stimulation intensity selection approach	R254177
+R570335	publication month	4
+R569793	threshold-estimation strategies 	R254301
+R570229	intraburst frequency 	20
+R569790	threshold ratio	5_10
+R570104	type of rTMS	R254150
+R569483	research field	R61
+R569752	stimulator company	R254311
+R569726	note	coil_siz: outer diameter
+R634469	has list element	Alvaro Pascual-Leone
+R570082	stimulator model 	R254341
+R570473	note	experiment: 1; site: STS
+R634516	has list element	Didier Bouhassira
+R570158	threshold ratio	5_10
+R569587	authors	R634443
+R569865	stimulator model 	R254323
+R569658	percentage or the amplitude of the motor threshold contraction	0.1
+R570506	type of rTMS	R254150
+R569563	stimulator company	R254311
+R136437	publication year	2013
+R634515	has list element	Yunyan Wang
+R570378	research field	R61
+R634416	has list element	Juliana Corlier
+R570542	coil shape	R254353
+R634511	has list element	Naoki Hanaoka
+R570548	note	site: left DLFPC
+R569422	publication month	5
+R570374	stimulator model 	R254325
+R570618	intraburst frequency 	10
+R570261	intraburst frequency 	1
+R569807	type of rTMS	R254150
+R570245	stimulator model 	R254340
+R570543	publication month	9
+R570577	publication month	5
+R570493	stimulator model 	R254345
+R569674	type of rTMS	R254150
+R634499	has list element	Thomas Nyffeler
+R75726	authors	R615105
+R634646	has list element	Chih-Ming Cheng
+R634425	has list element	John C. Rothwell
+R570225	coil size	70
+R570290	contribution	R570292
+R569415	stimulation intensity selection approach	R254178
+R570218	contribution	R570222
+R634496	has list element	I. Menard-Lefaucheur
+R570289	stimulation intensity selection approach	R254178
+R569915	threshold ratio	5_10
+R569875	stimulator company	R254313
+R570233	amplitude of the motor evoked potential in microvolt	50
+R570347	stimulator company	R254314
+R570120	type of rTMS	R254150
+R634556	has list element	Hiroaki Harashima
+R569992	coil size	90
+R110390	model	R110960
+R570399	threshold measurement	R254307
+R570205	venue	R570206
+R569492	threshold ratio	0.5
+R111725	research problem	R111726
+R569790	threshold-estimation strategies 	R254301
+R569496	threshold measurement	R254307
+R570284	publication year	2015
+R569821	threshold measurement	R254307
+R570105	stimulator model 	R254340
+R570175	coil model	R254362
+R569504	research field	R61
+R570337	amplitude of the motor evoked potential in microvolt	50
+R570403	stimulator model 	R254346
+R570017	stimulator model 	R254327
+R570161	amplitude of the motor evoked potential in microvolt	50
+R569545	intraburst frequency 	R254330
+R570160	intraburst frequency 	0.75
+R634396	has list element	Jean-Pascal Lefaucheur
+R569573	contribution	R569575
+R570604	authors	R634699
+R570255	maximum stimulator output	25
+R634492	has list element	James R. Tresilian
+R570488	stimulator company	R254311
+R569658	threshold ratio	5_10
+R569855	contribution	R569860
+R634573	has list element	F Naudet
+R700420	sample size	124
+R634485	has list element	F. Bermpohl
+R569734	intraburst frequency 	2
+R759857	research field	R64
+R569459	research field	R61
+R634640	has list element	Paul B. Fitzgerald
+R569778	percentage or the amplitude of the motor threshold contraction	0.05
+R570517	stimulator model 	R254340
+R570495	type of rTMS	R254150
+R569476	publication year	2019
+R569704	type of rTMS	R254150
+R570387	intraburst frequency 	7
+R570480	coil size	70
+R569723	doi	10.1016/j.clinph.2006.09.006
+R569619	threshold measurement	R254307
+R570100	threshold-estimation strategies 	R254301
+R110067	dataset	StarPlus fMRI data
+R569991	contribution	R569995
+R569401	coil size	70
+R570307	maximum stimulator output	50
+R569699	note	site: left IFG; coil_mo: reported as Magstim 200 Rapid
+R570162	note	mso: Table 3
+R570561	publication month	2
+R570170	percentage or the amplitude of the motor threshold contraction	0.2
+R570530	type of rTMS	R254175
+R569418	stimulator model 	R254344
+R570168	amplitude of the motor evoked potential in microvolt	50
+R570141	amplitude of the motor evoked potential in microvolt	50
+R569486	venue	R569487
+R570021	note	coil_mo: fluid cooled; site: left DMPFC
+R634532	has list element	Marianne Hendricks
+R569615	coil size	70
+R569752	coil shape	R254353
+R570324	type of rTMS	R254150
+R570169	threshold-estimation strategies 	R254301
+R634665	has list element	Pauline M. Hilt
+R570420	threshold measurement	R254307
+R136170	same as	http://uri.gbv.de/terminology/dfg/206-11
+R75656	Country of study	R29996
+R569785	type of rTMS	R254150
+R570047	publication year	2012
+R570496	maximum stimulator output	29.3
+R569506	amplitude of the motor evoked potential in microvolt	50
+R569738	stimulator model 	R254337
+R570203	threshold-estimation strategies 	R254301
+R570078	type of rTMS	R254150
+R634446	has list element	Paul B. Fitzgerald
+R569695	authors	R634472
+R75726	url	
+R569464	venue	R569465
+R110070	research problem	R110054
+R570151	publication month	5
+R569540	threshold ratio	0.5
+R569633	contribution	R569635
+R634471	has list element	Walter F. Haupt
+R634486	has list element	Geoffrey Cloud
+R634420	has list element	Anastasios Georgiou
+R634529	has list element	Vincenzo Romei
+R569833	threshold ratio	5_10
+R634446	has list element	Tom Oxley
+R634473	has list element	G. Koch
+R570464	authors	R634669
+R634452	has list element	Paul B. Fitzgerald
+R634588	has list element	Christian Van Hove
+R570388	doi	10.1016/j.neulet.2016.05.061
+R570257	maximum stimulator output	40
+R634482	has list element	Zoltan Chadaide
+R570452	note	site: left S2; mso: corresponded to 104% of AMT
+R634466	has list element	Lemke Leyman
+R569482	coil size	70
+R569875	stimulator model 	R254338
+R569809	authors	R634501
+R569720	type of rTMS	R254150
+R75487	research problem	R75643
+R570039	amplitude of the motor evoked potential in microvolt	200
+R569638	stimulator model 	R254325
+R570460	publication year	2019
+R58	has subfield	R62
+R634623	has list element	Abraham Zangen
+R570041	threshold measurement	R254307
+R570257	stimulator model 	R254340
+R634637	has list element	Pierre-Alain Joseph
+R634591	has list element	R. D. Bharath
+R570374	threshold measurement	R254307
+R109404	publication month	1
+R595159	main outcome measures	Actigraphy-derived sleep measures
+R634688	has list element	Jiang Ma
+R569436	authors	R634401
+R569673	stimulator company	R254311
+R570021	coil model	R254374
+R634542	has list element	Woo-Kyoung Yoo
+R570247	type of rTMS	R254150
+R569402	authors	R634392
+R569429	stimulator model 	R254340
+R569657	threshold measurement	R254307
+R634451	has list element	Heidi Danker-Hopfe
+R569765	contribution	R569779
+R634530	has list element	William Beam
+R569763	threshold ratio	5_10
+R634639	has list element	Peter Giacobbe
+R618591	has list element	F. Hacker
+R569788	type of rTMS	R254150
+R570053	coil size	70
+R570372	venue	R570373
+R570166	coil shape	R254353
+R634667	has list element	Alvaro Pascual-Leone
+R634506	has list element	Christian Forkstam
+R569803	authors	R634500
+R569419	publication year	2018
+R569912	intraburst frequency 	5
+R569440	coil size	70
+R570543	doi	10.1016/j.neuroimage.2017.06.048
+R569916	venue	R569917
+R570355	intraburst frequency 	7
+R634525	has list element	Goeran Hajak
+R570154	amplitude of the motor evoked potential in microvolt	50
+R570544	contribution	R570550
+R570415	contribution	R570418
+R569493	threshold ratio	0.5
+R569954	publication year	2011
+R570098	doi	10.1155/2014/305236
+R570072	research field	R61
+R570458	stimulator model 	R254337
+R569977	coil shape	R254353
+R570145	publication month	7
+R570535	note	site: motor cortex; protocol: iTBS-15-iTBS
+R569581	stimulator company	R254311
+R569920	stimulator company	R254310
+R569449	threshold measurement	R254307
+R570007	stimulator model 	R254326
+R109690	doi	10.1016/j.neuroscience.2017.05.032
+R569533	coil shape	R254353
+R570145	contribution	R570150
+R634525	has list element	Peter Michael Kreuzer
+R634680	has list element	Lysianne Beynel
+R634395	has list element	Yuan Gao
+R569943	contribution	R569947
+R569775	venue	R569776
+R570137	contribution	R570198
+R634521	has list element	James P. Coxon
+R569623	publication month	8
+R569493	stimulator model 	R254340
+R634701	has list element	Petra V Viher
+R634474	has list element	Patrick Mertens
+R570429	publication month	5
+R634626	has list element	Amy Peachey
+R569441	threshold ratio	0.5
+R570464	publication month	10
+R570494	stimulator model 	R254348
+R634503	has list element	Felix M. Mottaghy
+R570488	maximum stimulator output	46
+R570087	intraburst frequency 	10
+R634626	has list element	Hayley A. Kennedy
+R634690	has list element	Ya-Hong Zhang
+R570197	amplitude of the motor evoked potential in microvolt	50
+R569778	stimulator company	R254311
+R569932	contribution	R569934
+R569707	type of rTMS	R254150
+R569493	coil size	70
+R111735	research field	R111778
+R569885	publication year	2009
+R569928	publication month	8
+R634591	has list element	M. V. Bhaskar
+R569641	authors	R634457
+R569713	type of rTMS	R254150
+R570200	coil shape	R254353
+R570582	stimulator company	R254311
+R569721	coil shape	R254353
+R570511	stimulator company	R254311
+R136479	method	fMRI
+R569632	stimulator company	R254311
+R634649	has list element	Noureddin Nakhostin Ansari
+R759857	authors	R759858
+R570042	venue	R570043
+R569853	note	group: healthy site: right M1
+R570261	stimulator model 	R254326
+R569747	research field	R61
+R569862	coil size	70
+R569738	stimulation intensity selection approach	R254178
+R570619	venue	R570620
+R570168	intraburst frequency 	1
+R570558	stimulator model 	R254340
+R108524	authors	R618231
+R634620	has list element	K. Onoda
+R570423	venue	R570425
+R569747	authors	R634487
+R570140	doi	10.1002/hbm.21160
+R569947	stimulator company	R254311
+R634417	has list element	R. Alison Adcock
+R75654	publication year	2015
+R569990	threshold-estimation strategies 	R254301
+R569545	stimulation intensity selection approach	R254182
+R569992	amplitude of the motor evoked potential in microvolt	200
+R570149	type of rTMS	R254150
+R615052	has list element	Hans Helenius
+R569779	threshold ratio	0.5
+R569849	type of rTMS	R254150
+R569731	type of rTMS	R254150
+R634512	has list element	Fioravante Capone
+R569949	research field	R61
+R570023	authors	R634555
+R570338	research field	R61
+R569514	stimulation intensity selection approach	R254179
+R570284	authors	R634624
+R570002	type of rTMS	R254150
+R569884	stimulator company	R254314
+R634675	has list element	Christian Grefkes
+R700414	has list element	T. Bayer
+R634524	has list element	Hajime Kusayanagi
+R570155	research field	R61
+R634553	has list element	Patricia Colton
+R75477	Females	R75646
+R569973	contribution	R569975
+R570559	publication year	2017
+R615079	has list element	Paolo Messina
+R569904	threshold measurement	R254307
+R570042	contribution	R570044
+R634483	has list element	M. Pommier
+R570458	threshold-estimation strategies 	R254301
+R570618	threshold ratio	5_10
+R569723	venue	R569725
+R570284	contribution	R570288
+R569743	threshold ratio	5_10
+R570171	publication year	2013
+R569927	stimulator company	R254311
+R569858	venue	R569859
+R615054	has list element	Morten Kristoffer Hellum
+R110067	research problem	R110054
+R569817	coil size	70
+R570338	venue	R570339
+R570275	coil size	70
+R634604	has list element	E. Reinink
+R634541	has list element	Livia Brusa
+R634566	has list element	Adam R. Aron
+R634621	has list element	Brigida Fierro
+R570190	coil shape	R254353
+R732547	plc04: reproductive health	All control participants were naturally cycling and had not used hormonal contraceptives in the previous 3 months. They had regular menstrual cycles (26-32 days) and (controls only) had no medical or psychiatric illness. Diagnostic evaluation to determine PMDD symptoms took place over two to three months
+R569441	type of rTMS	R254150
+R634596	has list element	Vincenzo Rizzo
+R569858	authors	R634511
+R570171	doi	10.1310/tsr2003-250
+R569807	note	coil_siz: outer diameter; site: left auditory cortex; protocol: priming
+R570194	coil shape	R254353
+R570231	venue	R570232
+R569442	contribution	R569444
+R570565	note	site: left angular gyrus
+R569698	intraburst frequency 	20
+R634527	has list element	Masahito Kobayashi
+R634691	has list element	Jan Bembenek
+R570492	note	FL: motor inhibition threshold
+R634657	has list element	Mohammad Ahmadpanah
+R569517	threshold-estimation strategies 	R254301
+R570290	contribution	R570296
+R570457	stimulation intensity selection approach	R254178
+R570119	intraburst frequency 	10
+R634502	has list element	Alvaro Pascual-Leone
+R569632	intraburst frequency 	5
+R570435	intraburst frequency 	10
+R569459	contribution	R570535
+R136493	Main_manipulation_of_interest	comparison between brain activation to GWL vs. control warnings
+R570580	note	multiple stimulators
+R569757	coil size	70
+R634675	has list element	Petro Julkunen
+R700414	has list element	P. Dal-Bianco
+R569422	contribution	R570442
+R569619	intraburst frequency 	0.9
+R570247	coil size	70
+R570321	amplitude of the motor evoked potential in microvolt	50
+R569936	doi	10.1016/j.pain.2011.05.033
+R570583	type of rTMS	R254150
+R634448	has list element	Uwe Herwig
+R569976	stimulator company	R254311
+R570536	doi	10.1111/nmo.13123
+R569511	publication year	2003
+R570335	research field	R61
+R634512	has list element	Pietro A. Tonali
+R569446	doi	10.1038/s41598-018-26069-1
+R569563	threshold-estimation strategies 	R254301
+R570120	stimulator company	R254311
+R570105	threshold-estimation strategies 	R254301
+R570038	doi	10.3389/fnsys.2013.00124
+R570087	stimulator model 	R254337
+R570231	contribution	R570233
+R634496	has list element	J. P. Lefaucheur
+R634493	has list element	Michael Philpot
+R634488	has list element	David J. Moser
+R634519	has list element	Andrew S. Blum
+R634673	has list element	Guangqing Xu
+R634399	has list element	Agata Wozniak-Kwasniewska
+R569681	contribution	R569684
+R634589	has list element	V. Ricci
+R569779	amplitude of the motor evoked potential in microvolt	50
+R570549	threshold measurement	R254307
+R570102	contribution	R570119
+R570233	threshold ratio	5_10
+R569686	threshold measurement	R254307
+R569826	doi	10.1093/cercor/bhm239
+R136477	contribution	R136479
+R569704	stimulator model 	R254325
+R634460	has list element	M. Orth
+R570558	coil shape	R254353
+R569419	publication month	10
+R570606	threshold measurement	R254307
+R570257	note	site: left IPS
+R570565	threshold-estimation strategies 	MTAT_PEST
+R570182	contribution	R570184
+R570577	venue	R570578
+R634482	has list element	John C. Rothwell
+R634533	has list element	Javier Cudeiro
+R570054	contribution	R570056
+R570108	stimulator company	R254311
+R615055	has list element	Claudio Cricelli
+R634576	has list element	Xiaomin Lu
+R569816	type of rTMS	R254150
+R570171	publication month	5
+R569968	contribution	R569978
+R569838	threshold ratio	5_10
+R569884	stimulator model 	R254337
+R569838	coil shape	R254353
+R570163	authors	R634592
+R569800	coil model	R254359
+R569500	publication year	2019
+R634610	has list element	Ronald Buyl
+R570191	note	site: M1, 600 pulses; protocol: sequential; mso: measured by rTMS coil
+R569835	authors	R634507
+R570442	maximum stimulator output	51.12
+R570314	authors	R634631
+R570087	coil shape	R254353
+R569524	publication month	1
+R569461	type of rTMS	R254175
+R569761	stimulator model 	R254326
+R634432	has list element	Simone Rossi
+R634702	has list element	Yun-Ying Wu
+R570128	coil size	70
+R700419	has list element	Steven Ferris
+R569626	authors	R634453
+R570094	amplitude of the motor evoked potential in microvolt	50
+R570615	doi	10.3389/fnins.2020.00186
+R570265	publication month	1
+R570526	stimulator model 	R254350
+R570196	threshold ratio	5_10
+R569492	stimulator company	R254311
+R634650	has list element	Anette Giani
+R634448	has list element	Nicole Büchler
+R569838	stimulator model 	R254337
+R569507	publication month	11
+R569951	stimulation intensity selection approach	R254182
+R570328	contribution	R570330
+R570149	stimulator model 	R254326
+R634699	has list element	Megan Bradson
+R569422	authors	R634397
+R570083	publication year	2010
+R634568	has list element	Trudy Pang
+R570498	coil shape	R254353
+R634415	has list element	M. Czyżycki
+R570407	venue	R570411
+R634492	has list element	Jonathan Shemmell
+R634447	has list element	Alessandra Pesenti
+R569713	threshold measurement	R254308
+R569813	type of rTMS	R254150
+R569555	stimulator company	R254311
+R570230	stimulation intensity selection approach	R254178
+R569666	threshold-estimation strategies 	R254301
+R615080	has list element	Per Sidenius
+R569694	venue	R569697
+R570046	threshold ratio	5_10
+R570151	contribution	R570154
+R569786	venue	R569789
+R570386	maximum stimulator output	35
+R569923	type of rTMS	R254154
+R136439	research problem	R107733
+R569870	publication year	2009
+R75493	Country of study	R29990
+R75491	url	
+R569840	threshold-estimation strategies 	R254301
+R569509	coil shape	R254353
+R569797	stimulator company	R254310
+R570182	contribution	R570199
+R569521	contribution	R569523
+R569433	publication month	12
+R569615	stimulator company	R254311
+R569422	venue	R569423
+R634404	has list element	Emily L. Casanova
+R570582	stimulation intensity selection approach	R254179
+R634561	has list element	Andrea Marini
+R634414	has list element	J. Raboch
+R570241	publication month	4
+R570006	doi	10.1016/j.clineuro.2012.02.006
+R569424	coil size	110
+R569918	stimulation intensity selection approach	R254178
+R569701	authors	R634473
+R634627	has list element	Andreas Meyer-Lindenberg
+R569838	coil model	R254368
+R634627	has list element	Dagmar Gass
+R569408	coil size	70
+R569827	research field	R61
+R569593	threshold measurement	R254307
+R634573	has list element	F Le Jeune
+R634554	has list element	Dorit Wenke
+R110068	research field	R207
+R569990	coil shape	R254353
+R569654	maximum stimulator output	34.4
+R569569	threshold measurement	R254307
+R634542	has list element	Sung Tae Kim
+R570235	stimulator company	R254311
+R570207	threshold measurement	R254307
+R569647	contribution	R569808
+R570368	authors	R634646
+R570244	research field	R61
+R634418	has list element	Ivy F. Tso
+R569470	authors	R634410
+R570080	note	device: the stimulation device and orientation was identical to that in case #1.
+R634535	has list element	P. Haggard
+R634478	has list element	Benoit Bediou
+R634700	has list element	Alexander McFarlane
+R570134	doi	10.3389/fnagi.2014.00182
+R569920	intraburst frequency 	1
+R570531	stimulator company	MagVen
+R136491	publication year	2016
+R570198	threshold measurement	R254307
+R634532	has list element	Rudi De Raedt
+R634683	has list element	Jessica McClelland
+R569993	research field	R61
+R570493	threshold ratio	5_10
+R569968	contribution	R569972
+R634481	has list element	Paul B. Fitzgerald
+R569947	threshold ratio	5_10
+R570588	stimulator model 	R254337
+R570317	research field	R61
+R570279	amplitude of the motor evoked potential in microvolt	50
+R570282	note	group: healthy; device: information not reported
+R569947	threshold-estimation strategies 	R254301
+R634480	has list element	Eman M. Khedr
+R570080	intraburst frequency 	1
+R618590	has list element	Javier O. Garcia
+R570132	amplitude of the motor evoked potential in microvolt	50
+R569970	intraburst frequency 	11
+R634663	has list element	Thomas Polak
+R618523	has list element	Harald T. Schupp
+R570512	type of rTMS	R254150
+R569851	stimulator company	R254311
+R569543	maximum stimulator output	100
+R569851	intraburst frequency 	5
+R569765	contribution	R569773
+R570276	publication year	2014
+R634457	has list element	Wolfgang Sperling
+R570107	coil size	70
+R570524	contribution	R570526
+R569820	publication month	1
+R570348	stimulation intensity selection approach	R254178
+R569415	note	coil_siz: outer diameter; stimulator: model 2002 cannot do rTMS
+R570270	authors	R634619
+R570492	coil shape	R254353
+R570469	threshold ratio	5_10
+R569486	authors	R634415
+R569900	type of rTMS	R254150
+R634658	has list element	Anna-Katharine Brem
+R618285	has list element	Tara D. Raftery
+R569832	coil shape	R254353
+R569864	coil size	70
+R569416	doi	10.1038/s41398-017-0005-6
+R570496	stimulation intensity selection approach	R254177
+R570421	publication month	11
+R569674	note	site: P4; stim_mo: custom; coil_siz: external wing diameter
+R569707	coil size	70
+R570064	type of rTMS	R254150
+R569728	contribution	R569734
+R569543	coil size	90
+R570274	threshold-estimation strategies 	R254301
+R570105	coil shape	R254353
+R570613	stimulator model 	R254341
+R634694	has list element	Tabitha A. Iseger
+R570305	contribution	R570311
+R634570	has list element	Laurent Boyer
+R110068	publication month	7
+R570458	type of rTMS	R254154
+R570484	maximum stimulator output	29.9
+R570579	stimulator company	R254310
+R569678	contribution	R569680
+R634650	has list element	Thomas Polak
+R617421	has list element	C. Lerman
+R569810	doi	10.1371/journal.pone.0003046
+R570037	threshold-estimation strategies 	CITE
+R109690	research field	R61
+R634475	has list element	Joanne Green
+R569833	note	site: right IFG
+R634475	has list element	Nichole Lupei
+R569965	intraburst frequency 	1
+R569615	threshold ratio	3_6
+R136437	publication month	4
+R569469	intraburst frequency 	0.2
+R634525	has list element	Timm B. Poeppl
+R570519	coil shape	R254353
+R634696	has list element	Romina Esposito
+R569562	threshold measurement	R254308
+R570141	threshold measurement	R254307
+R569763	type of rTMS	R254150
+R569976	coil shape	R254353
+R570419	coil model	R254379
+R634599	has list element	Alice Varnava
+R569667	contribution	R569669
+R570021	stimulator model 	R254341
+R634461	has list element	Michael C. Ridding
+R570007	threshold ratio	5_10
+R570176	coil size	70
+R634690	has list element	Zhong-Heng Wang
+R569912	stimulator model 	R254323
+R634662	has list element	Kalpana P. Padala
+R570026	intraburst frequency 	5
+R570168	threshold measurement	R254307
+R569529	intraburst frequency 	20
+R570414	stimulator company	R254319
+R569888	coil model	R254359
+R570217	coil size	75
+R569677	threshold ratio	5_10
+R569540	threshold-estimation strategies 	R254301
+R634634	has list element	Albert H. Vette
+R570254	contribution	R570262
+R569509	stimulation intensity selection approach	R254177
+R634671	has list element	Peiyang Li
+R570332	publication year	2016
+R634564	has list element	Moon Suh Park
+R570614	stimulation intensity selection approach	R254178
+R569643	stimulation intensity selection approach	R254179
+R569997	threshold-estimation strategies 	R254301
+R569925	contribution	R569927
+R111716	publication month	2
+R570268	type of rTMS	R254150
+R570434	coil model	R254370
+R569849	note	group: patient; site: right M1
+R570447	stimulator model 	R254327
+R570415	publication month	10
+R569802	note	coil_siz: outer diameter; site: left auditory cortex; protocol: main
+R570113	authors	R634579
+R569476	contribution	R570566
+R570498	stimulator company	R254315
+R634503	has list element	Massimo Gangitano
+R569794	contribution	R569797
+R570047	contribution	R570053
+R569761	coil size	70
+R569920	stimulation intensity selection approach	R254178
+R569677	stimulation intensity selection approach	R254178
+R634563	has list element	Lingjiang Li
+R570487	intraburst frequency 	1
+R634402	has list element	Martin Schecklmann
+R569845	authors	R634509
+R570466	stimulation intensity selection approach	R254182
+R570402	doi	10.1177/1352458516661640
+R75726	venue	R75727
+R570524	contribution	R570529
+R570410	maximum stimulator output	48.16
+R570348	type of rTMS	R254150
+R569735	publication month	8
+R569669	stimulation intensity selection approach	R254178
+R570530	note	site: motor cortex; protocol: iTBS-5-iTBS
+R569686	coil size	90
+R634497	has list element	Shingo Okabe
+R570530	threshold-estimation strategies 	R254301
+R570131	doi	10.3389/fnhum.2013.00150
+R569629	stimulator company	R254311
+R569968	contribution	R569971
+R634681	has list element	Su Jin Kim
+R634431	has list element	V. Rohde
+R570538	doi	10.1007/s00406-020-01141-y
+R569976	stimulation intensity selection approach	R254177
+R569458	stimulation intensity selection approach	R254179
+R570309	type of rTMS	R254150
+R569472	threshold measurement	R254308
+R570076	type of rTMS	R254150
+R700418	venue	R41254
+R634497	has list element	Toshiaki Furubayashi
+R58	has subfield	R136164
+R569746	contribution	R569749
+R570278	authors	R634622
+R569745	threshold-estimation strategies 	R254301
+R569619	threshold-estimation strategies 	R254301
+R569797	amplitude of the motor evoked potential in microvolt	50
+R570363	coil model	R254379
+R569727	threshold-estimation strategies 	R254301
+R570033	research field	R61
+R700414	has list element	M. Rosler
+R700412	mean baseline MMSE	18
+R570009	type of rTMS	R254150
+R634696	has list element	Alex Martino Cinnera
+R570559	doi	10.1038/s41398-017-0001-x
+R109690	publication year	2017
+R570392	stimulator model 	R254340
+R570149	coil size	70
+R570440	authors	R634663
+R634683	has list element	Bethan Dalton
+R617390	has list element	Robert A. C. Ruiter
+R634395	has list element	Kejian Wang
+R634553	has list element	Blake Woodside
+R570134	research field	R61
+R569483	venue	R569484
+R570367	stimulation intensity selection approach	R254182
+R569745	stimulator company	R254310
+R634626	has list element	Peter G. Enticott
+R634452	has list element	Jeff Z. Daskalakis
+R569643	type of rTMS	R254150
+R570203	intraburst frequency 	1
+R570415	contribution	R570419
+R570089	doi	10.1038/tp.2014.62
+R569790	intraburst frequency 	10
+R570584	coil size	70
+R570072	publication month	3
+R634546	has list element	Martine R. van Schouwenburg
+R634517	has list element	Claudia Mastroeni
+R569820	contribution	R569823
+R569695	publication month	3
+R570175	stimulator model 	R254323
+R634621	has list element	Giuseppe Cosentino
+R569984	coil shape	R254353
+R569964	publication month	8
+R569992	type of rTMS	R254175
+R634475	has list element	William McDonald
+R569435	coil size	70
+R569795	doi	10.1016/j.neulet.2006.09.011
+R569421	coil size	97
+R570181	coil size	90
+R615062	has list element	Olafur Kjartansson
+R570383	coil model	R254359
+R569552	note	site: Oz; coil_mo: iron core coil
+R570260	coil size	70
+R570129	publication month	3
+R570222	type of rTMS	R254150
+R634558	has list element	Yoshihiko Koga
+R634642	has list element	Sebastian Ille
+R569779	threshold measurement	R254307
+R569738	threshold measurement	R254307
+R569889	venue	R569890
+R634387	has list element	Perminder Sachdev
+R570538	publication year	2020
+R570621	stimulation intensity selection approach	R254177
+R570604	publication month	5
+R570484	coil size	70
+R569453	doi	10.3233/RNN-180812
+R569533	stimulator company	R254311
+R634578	has list element	Yasuo Terao
+R569766	coil size	70
+R109692	evaluation	R109693
+R569785	stimulation intensity selection approach	R254179
+R570127	amplitude of the motor evoked potential in microvolt	50
+R569824	stimulator company	R254311
+R75494	contribution	R75496
+R569832	type of rTMS	R254154
+R570547	note	coil_siz: outer diameter
+R569885	doi	10.1152/jn.91046.2008
+R569900	threshold ratio	5_10
+R634690	has list element	Xiao-Xia Wang
+R570524	venue	R570525
+R569813	note	site: dlPFC
+R75661	publication month	12
+R569609	doi	10.1097/01.wnr.0000126504.89983.ec
+R569648	stimulator company	MagSti
+R570231	publication month	12
+R570316	threshold ratio	5_10
+R569782	publication month	1
+R569761	intraburst frequency 	10
+R570316	stimulator company	R254310
+R570354	stimulation intensity selection approach	R254178
+R570189	intraburst frequency 	10
+R136499	authors	R617390
+R111723	venue	R111724
+R634512	has list element	Paolo Profice
+R615080	has list element	Jørn Olsen
+R569629	note	experiment: 2; timing; MSO range: 45-65%; multiple task paradigms
+R569742	contribution	R569745
+R634645	has list element	Rosalyn J. Moran
+R570334	stimulator model 	R254340
+R569693	note	task: auditory
+R595162	has effect	"not dependent on age, gender, stage of the menstrual cycle, time
+of year, or on the timing or duration of sleep"
+R570111	intraburst frequency 	10
+R569916	contribution	R569920
+R569993	venue	R569996
+R732547	slc03: pre-laboratory sleep-wake behaviour	Bedtimes to be kept regular for one week prior to the experiment
+R569868	amplitude of the motor evoked potential in microvolt	200
+R569797	maximum stimulator output	47.74
+R569593	stimulator model 	R254326
+R569919	intraburst frequency 	1
+R569598	publication year	2004
+R570227	research field	R61
+R732547	results	2) Percentage group suppression from baseline ws greater in PMDD compared to controls (30.8% versus −0.2%, z = −2.057, p = .040). The median percentage melatonin suppression in response to light exposure from 01:30 to 03:00 was greater in the midfollicular phase compared to the late luteal phase in the PMDD group. This menstrual phase difference was not observed in the controls.
+R108977	venue	R108978
+R569580	coil shape	R254353
+R569720	stimulator model 	R254323
+R136479	result	high-MSV > low-MSV contrast: bilateral occipital and parietal regions, as well as right fronto-opercular cortex
+R570249	coil shape	R254353
+R634484	has list element	Wolfgang H. Oertel
+R700415	research problem	R700417
+wikidata:Q411887	same as	https://www.wikidata.org/entity/Q411887
+R570045	stimulator model 	R254326
+R570138	percentage or the amplitude of the motor threshold contraction	15-20%
+R569727	threshold ratio	5_10
+R569993	doi	10.1016/j.neulet.2011.12.043
+R569754	coil shape	R254353
+R569497	doi	10.1016/j.nicl.2019.101719
+R570022	threshold measurement	R254307
+R570287	intraburst frequency 	10
+R570082	coil shape	R254353
+R595157	authors	R623398
+R569575	stimulation intensity selection approach	R254177
+R634403	has list element	Sinéad A. Reid
+R634653	has list element	Long Cao
+R570444	coil shape	R254354
+R569659	percentage or the amplitude of the motor threshold contraction	0.1
+R569656	percentage or the amplitude of the motor threshold contraction	0.1
+R569433	publication year	2018
+R569840	threshold measurement	R254307
+R569470	publication year	2018
+R570243	type of rTMS	R254150
+R569524	venue	R569525
+R569533	intraburst frequency 	9.7
+R634638	has list element	Maxime Maroulidès
+R700413	venue	R74104
+R570282	stimulation intensity selection approach	R254178
+R634563	has list element	Jun Liu
+R570197	threshold-estimation strategies 	R254301
+R570453	publication year	2019
+R569745	coil size	70
+R569953	threshold ratio	5_10
+R569663	contribution	R569665
+R570394	intraburst frequency 	1
+R634655	has list element	Yicong Lin
+R634391	has list element	Jon S. Simons
+R569584	stimulation intensity selection approach	R254177
+R570248	intraburst frequency 	1
+R569489	contribution	R569493
+R570109	maximum stimulator output	64.9
+R570225	threshold-estimation strategies 	R254301
+R570618	threshold measurement	R254307
+R570079	stimulator model 	R254340
+R108987	venue	R108988
+R569533	maximum stimulator output	57.3
+R634680	has list element	Lifu Deng
+R634607	has list element	Hafez Bajoghli
+R570528	coil size	90
+R570151	research field	R61
+R569921	venue	R569922
+R570359	stimulator model 	R254325
+R569438	stimulator company	R254311
+R569461	amplitude of the motor evoked potential in microvolt	50
+R569743	note	site: dominant motor cortex; coil_siz: external diamter
+R634459	has list element	Eva Feredoes
+R570262	stimulation intensity selection approach	R254182
+R569540	coil shape	R254353
+R570472	stimulation intensity selection approach	R254178
+R570162	threshold ratio	5_10
+R634661	has list element	Fidel Vila-Rodriguez
+R570129	publication year	2011
+R569887	amplitude of the motor evoked potential in microvolt	50
+R570441	threshold-estimation strategies 	R254347
+R569998	contribution	R570005
+R570297	publication year	2012
+R569804	threshold-estimation strategies 	R254301
+R569625	stimulator model 	R254326
+R615080	has list element	Marianne G. Pedersen
+R570437	stimulator model 	MPX100
+R569524	contribution	R569526
+R569715	publication year	2007
+R634702	has list element	Xin-Ping Deng
+R618282	has list element	Riccardo Massei
+R569383	contribution	R569385
+R569775	contribution	R569778
+R634563	has list element	Jiansong Zhou
+R570423	publication year	2019
+R634487	has list element	Miguel Echevarría
+R615097	has list element	G. Miketek
+R569545	coil shape	R254353
+R634698	has list element	Akiyoshi Matsugi
+R569666	stimulation intensity selection approach	R254177
+R570258	authors	R634616
+R634529	has list element	Gregor Thut
+R570548	stimulator model 	R254323
+R570166	type of rTMS	R254150
+R569681	venue	R569682
+R634652	has list element	Céline Tard
+R569617	publication month	6
+R634451	has list element	Malek Bajbouj
+R570618	coil shape	R254353
+R569800	coil size	50
+R569977	stimulator company	R254311
+R700409	description	efers to the decline or impairment in the ability to perform everyday tasks that are necessary for independent living.
+wikidata:Q412690	same as	https://www.wikidata.org/entity/Q412690
+R570513	publication month	3
+R570186	threshold measurement	R254307
+R569861	type of rTMS	R254150
+R634516	has list element	Alaa Mhalla
+R570481	threshold-estimation strategies 	R254301
+R75488	url	
+R634413	has list element	Hyeon Min Ahn
+R569569	threshold ratio	5_10
+R634512	has list element	Mario Sabatelli
+R570012	doi	10.1016/j.psychres.2013.03.032
+R569408	coil shape	R254353
+R569783	doi	10.1177/1352458508088710
+R634515	has list element	Marjorie Nicholas
+R569699	stimulator model 	R254325
+R569949	publication year	2010
+R570596	amplitude of the motor evoked potential in microvolt	50
+R570122	authors	R634581
+R569778	stimulation intensity selection approach	R254177
+R634685	has list element	Mirela Čelić-Ružić
+R569543	stimulation intensity selection approach	R254182
+R634682	has list element	Antonio Egidio Nardi
+R634646	has list element	Cheng-Ta Li
+R569476	venue	R569477
+R570583	coil size	70
+R569439	threshold-estimation strategies 	R254301
+R570542	stimulation intensity selection approach	R254178
+R634654	has list element	Patrick Asquinazi
+R634630	has list element	Kumar Das
+R570531	amplitude of the motor evoked potential in microvolt	50
+R569386	research field	R61
+R75726	contribution	R75728
+R569438	coil size	70
+R569912	stimulation intensity selection approach	R254178
+R634685	has list element	Sandra Zečević Penić
+R570365	contribution	R570367
+R570066	coil shape	R254353
+R569559	stimulator model 	R254325
+R569821	coil shape	R254353
+R569985	publication month	1
+R569609	contribution	R569612
+R634500	has list element	Giovanni Abbruzzese
+R570265	publication year	2014
+R569415	threshold ratio	5_10
+R569482	stimulation intensity selection approach	R254182
+R570214	coil shape	R254353
+R570472	type of rTMS	R254150
+R570454	venue	R570456
+R570135	threshold ratio	5_10
+R569729	contribution	R569733
+R570609	threshold-estimation strategies 	CITE
+R569979	publication year	2012
+R569596	coil size	70
+R570460	contribution	R570469
+R570075	coil shape	R254353
+R570610	stimulation intensity selection approach	R254178
+R569590	contribution	R569593
+R570442	coil model	R254365
+R569786	research field	R61
+R569562	threshold-estimation strategies 	R254301
+R569788	threshold-estimation strategies 	R254301
+R570549	amplitude of the motor evoked potential in microvolt	150
+R569678	publication year	2006
+R569687	contribution	R569689
+R634460	has list element	A. Münchau
+R570489	amplitude of the motor evoked potential in microvolt	200
+R109459	Has ORCID	0000-0002-0705-631X
+R570168	stimulator model 	R254326
+R634518	has list element	Martina Bočková
+R569989	type of rTMS	R254154
+R111718	approach	R77132
+R570524	doi	10.1097/AUD.0000000000000908
+R569861	coil shape	R254353
+R569567	research field	R61
+R569446	venue	R569447
+R569735	authors	R634483
+R569459	contribution	R569461
+R64	same as	http://uri.gbv.de/terminology/dfg/206-08
+R569887	stimulator company	R254310
+R634699	has list element	Eleni Frangos
+R570229	note	site: right PFC; protocol: bilateral sequential
+R700414	has list element	R. Hartman
+R615054	has list element	Marte Syvertsen
+R634448	has list element	Manfred Spitzer
+R569494	research field	R61
+R569756	authors	R634489
+R634647	has list element	Maria Kekic
+R570352	authors	R634642
+R569543	stimulator company	R254311
+R569580	stimulation intensity selection approach	R254178
+R75660	research problem	R75664
+R570468	type of rTMS	R254150
+R569700	stimulator model 	R254325
+R109690	venue	R109691
+R634564	has list element	Seung Geun Yeo
+R570053	stimulator model 	R254325
+R570397	coil size	70
+R569580	amplitude of the motor evoked potential in microvolt	50
+R111739	approach	R111740
+R570191	stimulator model 	R254340
+R570621	note	protocol: the triplet repetition rate was approximately 4.17 Hz instead of 5 Hz
+R634435	has list element	Maarten Steyvers
+R569713	threshold-estimation strategies 	R254301
+R569441	note	experiment: 2; site: TPJ
+R570311	stimulation intensity selection approach	R254178
+R569469	note	site: ACC
+R569918	intraburst frequency 	1
+R634578	has list element	Takahiro Shimizu
+R569433	authors	R634400
+R569506	stimulator model 	R254340
+R570601	doi	10.3389/fnins.2020.00388
+R570325	authors	R634634
+R570140	research field	R61
+R570554	type of rTMS	R254150
+R569854	stimulator model 	R254326
+R634671	has list element	Yangsong Zhang
+R569941	intraburst frequency 	0.5
+R570213	type of rTMS	R254150
+R570287	stimulation intensity selection approach	R254178
+R634671	has list element	Yajing Si
+R570365	authors	R634645
+R569670	contribution	R569674
+R570127	threshold-estimation strategies 	R254301
+R569531	contribution	R569534
+R569879	coil shape	R254353
+R618431	has list element	Nikola Kasabov
+R570233	stimulator company	R254314
+R569887	threshold-estimation strategies 	R254301
+R634625	has list element	Alexander T. Sack
+R569852	stimulation intensity selection approach	R254182
+R111729	publication month	6
+R570241	contribution	R570243
+R569521	venue	R569522
+R615055	has list element	Iacopo Cricelli
+R570563	coil model	R254364
+R570056	intraburst frequency 	5
+R634596	has list element	Francesca Morgante
+R569517	stimulation intensity selection approach	R254179
+R570080	threshold measurement	R254308
+R569857	stimulator model 	R254325
+R700408	mean baseline MMSE	20
+R569604	coil size	90
+R570034	type of rTMS	R254154
+R570144	type of rTMS	R254175
+R570454	contribution	R570458
+R634439	has list element	I. Fabre
+R570539	stimulator company	R254311
+R570532	authors	R634683
+R569809	publication year	2008
+R570418	type of rTMS	R254150
+R634489	has list element	Elisabeth Rounis
+R570311	coil shape	R254354
+R570269	coil model	R254368
+R569573	research field	R61
+R570007	threshold-estimation strategies 	R254301
+R634628	has list element	Nathan Weisz
+R569608	intraburst frequency 	5
+R634606	has list element	Sidikejiang Wupuer
+R570485	publication year	2019
+R570037	coil shape	R254353
+R569971	threshold ratio	5_10
+R570173	threshold ratio	5_10
+R634508	has list element	Elisa Iacovelli
+R634593	has list element	Beatrice de Gelder
+R570394	coil shape	R254353
+R634640	has list element	Lenore E. Wambeek
+R634455	has list element	T. Günther
+R569759	type of rTMS	R254150
+R634652	has list element	Hervé Devanne
+R634410	has list element	Minghua Bi
+R570334	coil shape	R254353
+R569779	coil size	90
+R570154	threshold-estimation strategies 	R254301
+R618584	has list element	Martin A. Imhof
+R570603	stimulator company	R254310
+R570338	contribution	R570341
+R569935	coil shape	R254353
+R570275	stimulator company	R254311
+R634686	has list element	Jonathan Downar
+R569970	threshold-estimation strategies 	R254301
+R634686	has list element	Ayda Ghahremani
+R570095	threshold-estimation strategies 	R254301
+R570051	threshold ratio	5_10
+R570094	coil model	R254359
+R634675	has list element	Jari Karhu
+R570549	note	site: ACC
+R634519	has list element	James J. Riviello
+R569885	publication month	12
+R570408	publication month	11
+R570352	doi	10.1016/j.neuropsychologia.2016.07.025
+R570466	type of rTMS	R254154
+R570588	stimulator company	R254314
+R618231	has list element	Carsten H. Wolters
+R110390	genes detected by qPCR 	R110865
+R569470	research field	R61
+R569984	stimulation intensity selection approach	R254179
+R700418	publication year	2003
+R570263	publication year	2015
+R570002	coil shape	R254353
+R634515	has list element	Jacquie Kurland
+R634516	has list element	Daniel Ciampi de Andrade
+R570555	authors	R634689
+R570097	research field	R61
+R570222	coil size	70
+R569459	contribution	R570527
+R570311	threshold ratio	5_10
+R634603	has list element	Hartwig R. Siebner
+R569681	publication month	9
