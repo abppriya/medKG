@@ -1,0 +1,1264 @@
+2024-12-08 18:21:32 INFO     ---------------------------------------------------------------------------------------------
+2024-12-08 18:21:32 INFO     Geo: box
+2024-12-08 18:21:32 INFO     Data Path: .
+2024-12-08 18:21:32 INFO     #entity: 4923
+2024-12-08 18:21:32 INFO     #relation: 264
+2024-12-08 18:21:32 INFO     #max steps: 8000
+2024-12-08 18:21:32 INFO     Evaluate unoins using: DNF
+2024-12-08 18:21:32 INFO     loading data
+2024-12-08 18:21:32 INFO     Training info:
+2024-12-08 18:21:32 INFO     1p: 650
+2024-12-08 18:21:32 INFO     2p: 650
+2024-12-08 18:21:32 INFO     3p: 650
+2024-12-08 18:21:32 INFO     2i: 650
+2024-12-08 18:21:32 INFO     3i: 650
+2024-12-08 18:21:32 INFO     pi: 650
+2024-12-08 18:21:32 INFO     ip: 650
+2024-12-08 18:21:32 INFO     2u-DNF: 650
+2024-12-08 18:21:32 INFO     up-DNF: 650
+2024-12-08 18:21:32 INFO     Validation info:
+2024-12-08 18:21:32 INFO     1p: 2500
+2024-12-08 18:21:32 INFO     2p: 2500
+2024-12-08 18:21:32 INFO     3p: 2500
+2024-12-08 18:21:32 INFO     2i: 2500
+2024-12-08 18:21:32 INFO     3i: 2500
+2024-12-08 18:21:32 INFO     pi: 2500
+2024-12-08 18:21:32 INFO     ip: 2500
+2024-12-08 18:21:32 INFO     2u-DNF: 2500
+2024-12-08 18:21:32 INFO     up-DNF: 2500
+2024-12-08 18:21:32 INFO     Test info:
+2024-12-08 18:21:32 INFO     1p: 650
+2024-12-08 18:21:32 INFO     2p: 650
+2024-12-08 18:21:32 INFO     3p: 650
+2024-12-08 18:21:32 INFO     2i: 650
+2024-12-08 18:21:32 INFO     3i: 650
+2024-12-08 18:21:32 INFO     pi: 650
+2024-12-08 18:21:32 INFO     ip: 650
+2024-12-08 18:21:32 INFO     2u-DNF: 650
+2024-12-08 18:21:32 INFO     up-DNF: 650
+2024-12-08 18:21:32 INFO     Model Parameter Configuration:
+2024-12-08 18:21:32 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2024-12-08 18:21:32 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2024-12-08 18:21:32 INFO     Parameter entity_embedding: torch.Size([4923, 400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter relation_embedding: torch.Size([264, 400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter offset_embedding: torch.Size([264, 400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter center_net.layer1.weight: torch.Size([400, 400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter center_net.layer1.bias: torch.Size([400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter center_net.layer2.weight: torch.Size([400, 400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter center_net.layer2.bias: torch.Size([400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter offset_net.layer1.weight: torch.Size([400, 400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter offset_net.layer1.bias: torch.Size([400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter offset_net.layer2.weight: torch.Size([400, 400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter offset_net.layer2.bias: torch.Size([400]), require_grad = True
+2024-12-08 18:21:32 INFO     Parameter Number: 2822000
+2024-12-08 18:21:33 INFO     Ramdomly Initializing box Model...
+2024-12-08 18:21:33 INFO     box mode = (none,0.02)
+2024-12-08 18:21:33 INFO     tasks = 1p.2p.3p.2i.3i.ip.pi.2u.up
+2024-12-08 18:21:33 INFO     init_step = 0
+2024-12-08 18:21:33 INFO     Start Training...
+2024-12-08 18:21:33 INFO     learning_rate = 0
+2024-12-08 18:21:33 INFO     batch_size = 512
+2024-12-08 18:21:33 INFO     hidden_dim = 400
+2024-12-08 18:21:33 INFO     gamma = 24.000000
+2024-12-08 18:21:34 INFO     Training average positive_sample_loss at step 0: 0.000002
+2024-12-08 18:21:34 INFO     Training average negative_sample_loss at step 0: 15.198231
+2024-12-08 18:21:34 INFO     Training average loss at step 0: 7.599116
+2024-12-08 18:21:56 INFO     Training average positive_sample_loss at step 100: 0.225515
+2024-12-08 18:21:56 INFO     Training average negative_sample_loss at step 100: 4.984630
+2024-12-08 18:21:56 INFO     Training average loss at step 100: 2.605072
+2024-12-08 18:22:20 INFO     Training average positive_sample_loss at step 200: 0.250805
+2024-12-08 18:22:20 INFO     Training average negative_sample_loss at step 200: 0.306795
+2024-12-08 18:22:20 INFO     Training average loss at step 200: 0.278800
+2024-12-08 18:22:42 INFO     Training average positive_sample_loss at step 300: 0.148363
+2024-12-08 18:22:42 INFO     Training average negative_sample_loss at step 300: 0.176912
+2024-12-08 18:22:42 INFO     Training average loss at step 300: 0.162638
+2024-12-08 18:23:04 INFO     Training average positive_sample_loss at step 400: 0.105064
+2024-12-08 18:23:04 INFO     Training average negative_sample_loss at step 400: 0.124817
+2024-12-08 18:23:04 INFO     Training average loss at step 400: 0.114940
+2024-12-08 18:23:26 INFO     Training average positive_sample_loss at step 500: 0.079962
+2024-12-08 18:23:26 INFO     Training average negative_sample_loss at step 500: 0.095531
+2024-12-08 18:23:26 INFO     Training average loss at step 500: 0.087747
+2024-12-08 18:23:47 INFO     Training average positive_sample_loss at step 600: 0.063687
+2024-12-08 18:23:47 INFO     Training average negative_sample_loss at step 600: 0.076225
+2024-12-08 18:23:47 INFO     Training average loss at step 600: 0.069956
+2024-12-08 18:24:09 INFO     Training average positive_sample_loss at step 700: 0.052695
+2024-12-08 18:24:09 INFO     Training average negative_sample_loss at step 700: 0.063605
+2024-12-08 18:24:09 INFO     Training average loss at step 700: 0.058150
+2024-12-08 18:24:31 INFO     Evaluating on Valid Dataset...
+2024-12-08 18:24:31 INFO     Evaluating the model... (0/22500)
+2024-12-08 18:24:33 INFO     Evaluating the model... (1000/22500)
+2024-12-08 18:24:35 INFO     Evaluating the model... (2000/22500)
+2024-12-08 18:24:37 INFO     Evaluating the model... (3000/22500)
+2024-12-08 18:24:39 INFO     Evaluating the model... (4000/22500)
+2024-12-08 18:24:41 INFO     Evaluating the model... (5000/22500)
+2024-12-08 18:24:43 INFO     Evaluating the model... (6000/22500)
+2024-12-08 18:24:45 INFO     Evaluating the model... (7000/22500)
+2024-12-08 18:24:48 INFO     Evaluating the model... (8000/22500)
+2024-12-08 18:24:50 INFO     Evaluating the model... (9000/22500)
+2024-12-08 18:24:53 INFO     Evaluating the model... (10000/22500)
+2024-12-08 18:24:56 INFO     Evaluating the model... (11000/22500)
+2024-12-08 18:24:58 INFO     Evaluating the model... (12000/22500)
+2024-12-08 18:25:01 INFO     Evaluating the model... (13000/22500)
+2024-12-08 18:25:04 INFO     Evaluating the model... (14000/22500)
+2024-12-08 18:25:06 INFO     Evaluating the model... (15000/22500)
+2024-12-08 18:25:09 INFO     Evaluating the model... (16000/22500)
+2024-12-08 18:25:12 INFO     Evaluating the model... (17000/22500)
+2024-12-08 18:25:14 INFO     Evaluating the model... (18000/22500)
+2024-12-08 18:25:16 INFO     Evaluating the model... (19000/22500)
+2024-12-08 18:25:18 INFO     Evaluating the model... (20000/22500)
+2024-12-08 18:25:21 INFO     Evaluating the model... (21000/22500)
+2024-12-08 18:25:23 INFO     Evaluating the model... (22000/22500)
+2024-12-08 18:25:24 INFO     Valid 1p MRR at step 800: 0.034599
+2024-12-08 18:25:24 INFO     Valid 1p HITS1 at step 800: 0.000000
+2024-12-08 18:25:24 INFO     Valid 1p HITS3 at step 800: 0.030933
+2024-12-08 18:25:24 INFO     Valid 1p HITS10 at step 800: 0.104633
+2024-12-08 18:25:24 INFO     Valid 1p num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid 2p MRR at step 800: 0.012858
+2024-12-08 18:25:24 INFO     Valid 2p HITS1 at step 800: 0.000800
+2024-12-08 18:25:24 INFO     Valid 2p HITS3 at step 800: 0.011733
+2024-12-08 18:25:24 INFO     Valid 2p HITS10 at step 800: 0.028444
+2024-12-08 18:25:24 INFO     Valid 2p num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid 3p MRR at step 800: 0.005496
+2024-12-08 18:25:24 INFO     Valid 3p HITS1 at step 800: 0.000422
+2024-12-08 18:25:24 INFO     Valid 3p HITS3 at step 800: 0.001986
+2024-12-08 18:25:24 INFO     Valid 3p HITS10 at step 800: 0.011199
+2024-12-08 18:25:24 INFO     Valid 3p num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid 2i MRR at step 800: 0.021748
+2024-12-08 18:25:24 INFO     Valid 2i HITS1 at step 800: 0.001200
+2024-12-08 18:25:24 INFO     Valid 2i HITS3 at step 800: 0.019867
+2024-12-08 18:25:24 INFO     Valid 2i HITS10 at step 800: 0.062733
+2024-12-08 18:25:24 INFO     Valid 2i num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid 3i MRR at step 800: 0.018930
+2024-12-08 18:25:24 INFO     Valid 3i HITS1 at step 800: 0.002400
+2024-12-08 18:25:24 INFO     Valid 3i HITS3 at step 800: 0.014200
+2024-12-08 18:25:24 INFO     Valid 3i HITS10 at step 800: 0.045171
+2024-12-08 18:25:24 INFO     Valid 3i num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid pi MRR at step 800: 0.015471
+2024-12-08 18:25:24 INFO     Valid pi HITS1 at step 800: 0.002000
+2024-12-08 18:25:24 INFO     Valid pi HITS3 at step 800: 0.010206
+2024-12-08 18:25:24 INFO     Valid pi HITS10 at step 800: 0.037872
+2024-12-08 18:25:24 INFO     Valid pi num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid ip MRR at step 800: 0.056943
+2024-12-08 18:25:24 INFO     Valid ip HITS1 at step 800: 0.040495
+2024-12-08 18:25:24 INFO     Valid ip HITS3 at step 800: 0.059773
+2024-12-08 18:25:24 INFO     Valid ip HITS10 at step 800: 0.083919
+2024-12-08 18:25:24 INFO     Valid ip num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid 2u-DNF MRR at step 800: 0.008641
+2024-12-08 18:25:24 INFO     Valid 2u-DNF HITS1 at step 800: 0.000000
+2024-12-08 18:25:24 INFO     Valid 2u-DNF HITS3 at step 800: 0.005139
+2024-12-08 18:25:24 INFO     Valid 2u-DNF HITS10 at step 800: 0.014835
+2024-12-08 18:25:24 INFO     Valid 2u-DNF num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid up-DNF MRR at step 800: 0.083104
+2024-12-08 18:25:24 INFO     Valid up-DNF HITS1 at step 800: 0.074806
+2024-12-08 18:25:24 INFO     Valid up-DNF HITS3 at step 800: 0.083146
+2024-12-08 18:25:24 INFO     Valid up-DNF HITS10 at step 800: 0.092527
+2024-12-08 18:25:24 INFO     Valid up-DNF num_queries at step 800: 2500.000000
+2024-12-08 18:25:24 INFO     Valid average MRR at step 800: 0.028643
+2024-12-08 18:25:24 INFO     Valid average HITS1 at step 800: 0.013569
+2024-12-08 18:25:24 INFO     Valid average HITS3 at step 800: 0.026332
+2024-12-08 18:25:24 INFO     Valid average HITS10 at step 800: 0.053482
+2024-12-08 18:25:24 INFO     Evaluating on Test Dataset...
+2024-12-08 18:25:24 INFO     Evaluating the model... (0/5850)
+2024-12-08 18:25:26 INFO     Evaluating the model... (1000/5850)
+2024-12-08 18:25:28 INFO     Evaluating the model... (2000/5850)
+2024-12-08 18:25:31 INFO     Evaluating the model... (3000/5850)
+2024-12-08 18:25:33 INFO     Evaluating the model... (4000/5850)
+2024-12-08 18:25:36 INFO     Evaluating the model... (5000/5850)
+2024-12-08 18:25:38 INFO     Test 1p MRR at step 800: 0.494627
+2024-12-08 18:25:38 INFO     Test 1p HITS1 at step 800: 0.001538
+2024-12-08 18:25:38 INFO     Test 1p HITS3 at step 800: 0.986958
+2024-12-08 18:25:38 INFO     Test 1p HITS10 at step 800: 0.998109
+2024-12-08 18:25:38 INFO     Test 1p num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test 2p MRR at step 800: 0.442618
+2024-12-08 18:25:38 INFO     Test 2p HITS1 at step 800: 0.087179
+2024-12-08 18:25:38 INFO     Test 2p HITS3 at step 800: 0.768554
+2024-12-08 18:25:38 INFO     Test 2p HITS10 at step 800: 0.879104
+2024-12-08 18:25:38 INFO     Test 2p num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test 3p MRR at step 800: 0.421480
+2024-12-08 18:25:38 INFO     Test 3p HITS1 at step 800: 0.233980
+2024-12-08 18:25:38 INFO     Test 3p HITS3 at step 800: 0.563599
+2024-12-08 18:25:38 INFO     Test 3p HITS10 at step 800: 0.684732
+2024-12-08 18:25:38 INFO     Test 3p num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test 2i MRR at step 800: 0.301015
+2024-12-08 18:25:38 INFO     Test 2i HITS1 at step 800: 0.059231
+2024-12-08 18:25:38 INFO     Test 2i HITS3 at step 800: 0.572555
+2024-12-08 18:25:38 INFO     Test 2i HITS10 at step 800: 0.817102
+2024-12-08 18:25:38 INFO     Test 2i num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test 3i MRR at step 800: 0.248197
+2024-12-08 18:25:38 INFO     Test 3i HITS1 at step 800: 0.040513
+2024-12-08 18:25:38 INFO     Test 3i HITS3 at step 800: 0.357768
+2024-12-08 18:25:38 INFO     Test 3i HITS10 at step 800: 0.730494
+2024-12-08 18:25:38 INFO     Test 3i num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test pi MRR at step 800: 0.676027
+2024-12-08 18:25:38 INFO     Test pi HITS1 at step 800: 0.527895
+2024-12-08 18:25:38 INFO     Test pi HITS3 at step 800: 0.821882
+2024-12-08 18:25:38 INFO     Test pi HITS10 at step 800: 0.908224
+2024-12-08 18:25:38 INFO     Test pi num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test ip MRR at step 800: 0.492154
+2024-12-08 18:25:38 INFO     Test ip HITS1 at step 800: 0.404783
+2024-12-08 18:25:38 INFO     Test ip HITS3 at step 800: 0.526915
+2024-12-08 18:25:38 INFO     Test ip HITS10 at step 800: 0.672973
+2024-12-08 18:25:38 INFO     Test ip num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test 2u-DNF MRR at step 800: 0.275681
+2024-12-08 18:25:38 INFO     Test 2u-DNF HITS1 at step 800: 0.000000
+2024-12-08 18:25:38 INFO     Test 2u-DNF HITS3 at step 800: 0.612386
+2024-12-08 18:25:38 INFO     Test 2u-DNF HITS10 at step 800: 0.971764
+2024-12-08 18:25:38 INFO     Test 2u-DNF num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test up-DNF MRR at step 800: 0.370665
+2024-12-08 18:25:38 INFO     Test up-DNF HITS1 at step 800: 0.164656
+2024-12-08 18:25:38 INFO     Test up-DNF HITS3 at step 800: 0.529601
+2024-12-08 18:25:38 INFO     Test up-DNF HITS10 at step 800: 0.725493
+2024-12-08 18:25:38 INFO     Test up-DNF num_queries at step 800: 650.000000
+2024-12-08 18:25:38 INFO     Test average MRR at step 800: 0.413607
+2024-12-08 18:25:38 INFO     Test average HITS1 at step 800: 0.168864
+2024-12-08 18:25:38 INFO     Test average HITS3 at step 800: 0.637802
+2024-12-08 18:25:38 INFO     Test average HITS10 at step 800: 0.820889
+2024-12-08 18:25:38 INFO     Training average positive_sample_loss at step 800: 0.044245
+2024-12-08 18:25:38 INFO     Training average negative_sample_loss at step 800: 0.053326
+2024-12-08 18:25:38 INFO     Training average loss at step 800: 0.048786
+2024-12-08 18:25:59 INFO     Training average positive_sample_loss at step 900: 0.037207
+2024-12-08 18:25:59 INFO     Training average negative_sample_loss at step 900: 0.045404
+2024-12-08 18:25:59 INFO     Training average loss at step 900: 0.041305
+2024-12-08 18:26:21 INFO     Training average positive_sample_loss at step 1000: 0.032111
+2024-12-08 18:26:21 INFO     Training average negative_sample_loss at step 1000: 0.039673
+2024-12-08 18:26:21 INFO     Training average loss at step 1000: 0.035892
+2024-12-08 18:26:42 INFO     Training average positive_sample_loss at step 1100: 0.027667
+2024-12-08 18:26:42 INFO     Training average negative_sample_loss at step 1100: 0.034758
+2024-12-08 18:26:42 INFO     Training average loss at step 1100: 0.031213
+2024-12-08 18:27:08 INFO     Training average positive_sample_loss at step 1200: 0.024120
+2024-12-08 18:27:08 INFO     Training average negative_sample_loss at step 1200: 0.030478
+2024-12-08 18:27:08 INFO     Training average loss at step 1200: 0.027299
+2024-12-08 18:27:29 INFO     Training average positive_sample_loss at step 1300: 0.021213
+2024-12-08 18:27:29 INFO     Training average negative_sample_loss at step 1300: 0.027313
+2024-12-08 18:27:29 INFO     Training average loss at step 1300: 0.024263
+2024-12-08 18:27:51 INFO     Training average positive_sample_loss at step 1400: 0.018853
+2024-12-08 18:27:51 INFO     Training average negative_sample_loss at step 1400: 0.024573
+2024-12-08 18:27:51 INFO     Training average loss at step 1400: 0.021713
+2024-12-08 18:28:13 INFO     Training average positive_sample_loss at step 1500: 0.016806
+2024-12-08 18:28:13 INFO     Training average negative_sample_loss at step 1500: 0.022057
+2024-12-08 18:28:13 INFO     Training average loss at step 1500: 0.019432
+2024-12-08 18:28:34 INFO     Evaluating on Valid Dataset...
+2024-12-08 18:28:34 INFO     Evaluating the model... (0/22500)
+2024-12-08 18:28:36 INFO     Evaluating the model... (1000/22500)
+2024-12-08 18:28:38 INFO     Evaluating the model... (2000/22500)
+2024-12-08 18:28:40 INFO     Evaluating the model... (3000/22500)
+2024-12-08 18:28:42 INFO     Evaluating the model... (4000/22500)
+2024-12-08 18:28:44 INFO     Evaluating the model... (5000/22500)
+2024-12-08 18:28:47 INFO     Evaluating the model... (6000/22500)
+2024-12-08 18:28:49 INFO     Evaluating the model... (7000/22500)
+2024-12-08 18:28:51 INFO     Evaluating the model... (8000/22500)
+2024-12-08 18:28:54 INFO     Evaluating the model... (9000/22500)
+2024-12-08 18:28:56 INFO     Evaluating the model... (10000/22500)
+2024-12-08 18:28:59 INFO     Evaluating the model... (11000/22500)
+2024-12-08 18:29:02 INFO     Evaluating the model... (12000/22500)
+2024-12-08 18:29:04 INFO     Evaluating the model... (13000/22500)
+2024-12-08 18:29:07 INFO     Evaluating the model... (14000/22500)
+2024-12-08 18:29:10 INFO     Evaluating the model... (15000/22500)
+2024-12-08 18:29:12 INFO     Evaluating the model... (16000/22500)
+2024-12-08 18:29:15 INFO     Evaluating the model... (17000/22500)
+2024-12-08 18:29:17 INFO     Evaluating the model... (18000/22500)
+2024-12-08 18:29:20 INFO     Evaluating the model... (19000/22500)
+2024-12-08 18:29:22 INFO     Evaluating the model... (20000/22500)
+2024-12-08 18:29:24 INFO     Evaluating the model... (21000/22500)
+2024-12-08 18:29:26 INFO     Evaluating the model... (22000/22500)
+2024-12-08 18:29:27 INFO     Valid 1p MRR at step 1600: 0.077315
+2024-12-08 18:29:27 INFO     Valid 1p HITS1 at step 1600: 0.000400
+2024-12-08 18:29:27 INFO     Valid 1p HITS3 at step 1600: 0.099867
+2024-12-08 18:29:27 INFO     Valid 1p HITS10 at step 1600: 0.228343
+2024-12-08 18:29:27 INFO     Valid 1p num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid 2p MRR at step 1600: 0.021560
+2024-12-08 18:29:27 INFO     Valid 2p HITS1 at step 1600: 0.000800
+2024-12-08 18:29:27 INFO     Valid 2p HITS3 at step 1600: 0.021200
+2024-12-08 18:29:27 INFO     Valid 2p HITS10 at step 1600: 0.058080
+2024-12-08 18:29:27 INFO     Valid 2p num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid 3p MRR at step 1600: 0.007600
+2024-12-08 18:29:27 INFO     Valid 3p HITS1 at step 1600: 0.000447
+2024-12-08 18:29:27 INFO     Valid 3p HITS3 at step 1600: 0.003439
+2024-12-08 18:29:27 INFO     Valid 3p HITS10 at step 1600: 0.015156
+2024-12-08 18:29:27 INFO     Valid 3p num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid 2i MRR at step 1600: 0.045488
+2024-12-08 18:29:27 INFO     Valid 2i HITS1 at step 1600: 0.002600
+2024-12-08 18:29:27 INFO     Valid 2i HITS3 at step 1600: 0.057333
+2024-12-08 18:29:27 INFO     Valid 2i HITS10 at step 1600: 0.137433
+2024-12-08 18:29:27 INFO     Valid 2i num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid 3i MRR at step 1600: 0.044647
+2024-12-08 18:29:27 INFO     Valid 3i HITS1 at step 1600: 0.012200
+2024-12-08 18:29:27 INFO     Valid 3i HITS3 at step 1600: 0.040000
+2024-12-08 18:29:27 INFO     Valid 3i HITS10 at step 1600: 0.109280
+2024-12-08 18:29:27 INFO     Valid 3i num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid pi MRR at step 1600: 0.028163
+2024-12-08 18:29:27 INFO     Valid pi HITS1 at step 1600: 0.003606
+2024-12-08 18:29:27 INFO     Valid pi HITS3 at step 1600: 0.025406
+2024-12-08 18:29:27 INFO     Valid pi HITS10 at step 1600: 0.074374
+2024-12-08 18:29:27 INFO     Valid pi num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid ip MRR at step 1600: 0.079433
+2024-12-08 18:29:27 INFO     Valid ip HITS1 at step 1600: 0.057851
+2024-12-08 18:29:27 INFO     Valid ip HITS3 at step 1600: 0.081625
+2024-12-08 18:29:27 INFO     Valid ip HITS10 at step 1600: 0.114324
+2024-12-08 18:29:27 INFO     Valid ip num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid 2u-DNF MRR at step 1600: 0.015107
+2024-12-08 18:29:27 INFO     Valid 2u-DNF HITS1 at step 1600: 0.000000
+2024-12-08 18:29:27 INFO     Valid 2u-DNF HITS3 at step 1600: 0.012262
+2024-12-08 18:29:27 INFO     Valid 2u-DNF HITS10 at step 1600: 0.032996
+2024-12-08 18:29:27 INFO     Valid 2u-DNF num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid up-DNF MRR at step 1600: 0.089633
+2024-12-08 18:29:27 INFO     Valid up-DNF HITS1 at step 1600: 0.077219
+2024-12-08 18:29:27 INFO     Valid up-DNF HITS3 at step 1600: 0.088337
+2024-12-08 18:29:27 INFO     Valid up-DNF HITS10 at step 1600: 0.102845
+2024-12-08 18:29:27 INFO     Valid up-DNF num_queries at step 1600: 2500.000000
+2024-12-08 18:29:27 INFO     Valid average MRR at step 1600: 0.045438
+2024-12-08 18:29:27 INFO     Valid average HITS1 at step 1600: 0.017236
+2024-12-08 18:29:27 INFO     Valid average HITS3 at step 1600: 0.047719
+2024-12-08 18:29:27 INFO     Valid average HITS10 at step 1600: 0.096981
+2024-12-08 18:29:27 INFO     Evaluating on Test Dataset...
+2024-12-08 18:29:28 INFO     Evaluating the model... (0/5850)
+2024-12-08 18:29:30 INFO     Evaluating the model... (1000/5850)
+2024-12-08 18:29:32 INFO     Evaluating the model... (2000/5850)
+2024-12-08 18:29:35 INFO     Evaluating the model... (3000/5850)
+2024-12-08 18:29:37 INFO     Evaluating the model... (4000/5850)
+2024-12-08 18:29:40 INFO     Evaluating the model... (5000/5850)
+2024-12-08 18:29:42 INFO     Test 1p MRR at step 1600: 0.583806
+2024-12-08 18:29:42 INFO     Test 1p HITS1 at step 1600: 0.168462
+2024-12-08 18:29:42 INFO     Test 1p HITS3 at step 1600: 0.999530
+2024-12-08 18:29:42 INFO     Test 1p HITS10 at step 1600: 1.000000
+2024-12-08 18:29:42 INFO     Test 1p num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test 2p MRR at step 1600: 0.741356
+2024-12-08 18:29:42 INFO     Test 2p HITS1 at step 1600: 0.575644
+2024-12-08 18:29:42 INFO     Test 2p HITS3 at step 1600: 0.899504
+2024-12-08 18:29:42 INFO     Test 2p HITS10 at step 1600: 0.952667
+2024-12-08 18:29:42 INFO     Test 2p num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test 3p MRR at step 1600: 0.699495
+2024-12-08 18:29:42 INFO     Test 3p HITS1 at step 1600: 0.588979
+2024-12-08 18:29:42 INFO     Test 3p HITS3 at step 1600: 0.787077
+2024-12-08 18:29:42 INFO     Test 3p HITS10 at step 1600: 0.867632
+2024-12-08 18:29:42 INFO     Test 3p num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test 2i MRR at step 1600: 0.496031
+2024-12-08 18:29:42 INFO     Test 2i HITS1 at step 1600: 0.266620
+2024-12-08 18:29:42 INFO     Test 2i HITS3 at step 1600: 0.717249
+2024-12-08 18:29:42 INFO     Test 2i HITS10 at step 1600: 0.918999
+2024-12-08 18:29:42 INFO     Test 2i num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test 3i MRR at step 1600: 0.594197
+2024-12-08 18:29:42 INFO     Test 3i HITS1 at step 1600: 0.456730
+2024-12-08 18:29:42 INFO     Test 3i HITS3 at step 1600: 0.688712
+2024-12-08 18:29:42 INFO     Test 3i HITS10 at step 1600: 0.834770
+2024-12-08 18:29:42 INFO     Test 3i num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test pi MRR at step 1600: 0.850963
+2024-12-08 18:29:42 INFO     Test pi HITS1 at step 1600: 0.775282
+2024-12-08 18:29:42 INFO     Test pi HITS3 at step 1600: 0.916553
+2024-12-08 18:29:42 INFO     Test pi HITS10 at step 1600: 0.957350
+2024-12-08 18:29:42 INFO     Test pi num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test ip MRR at step 1600: 0.692297
+2024-12-08 18:29:42 INFO     Test ip HITS1 at step 1600: 0.625920
+2024-12-08 18:29:42 INFO     Test ip HITS3 at step 1600: 0.722544
+2024-12-08 18:29:42 INFO     Test ip HITS10 at step 1600: 0.836983
+2024-12-08 18:29:42 INFO     Test ip num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test 2u-DNF MRR at step 1600: 0.331290
+2024-12-08 18:29:42 INFO     Test 2u-DNF HITS1 at step 1600: 0.002051
+2024-12-08 18:29:42 INFO     Test 2u-DNF HITS3 at step 1600: 0.938818
+2024-12-08 18:29:42 INFO     Test 2u-DNF HITS10 at step 1600: 1.000000
+2024-12-08 18:29:42 INFO     Test 2u-DNF num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test up-DNF MRR at step 1600: 0.597320
+2024-12-08 18:29:42 INFO     Test up-DNF HITS1 at step 1600: 0.458939
+2024-12-08 18:29:42 INFO     Test up-DNF HITS3 at step 1600: 0.698053
+2024-12-08 18:29:42 INFO     Test up-DNF HITS10 at step 1600: 0.863623
+2024-12-08 18:29:42 INFO     Test up-DNF num_queries at step 1600: 650.000000
+2024-12-08 18:29:42 INFO     Test average MRR at step 1600: 0.620751
+2024-12-08 18:29:42 INFO     Test average HITS1 at step 1600: 0.435403
+2024-12-08 18:29:42 INFO     Test average HITS3 at step 1600: 0.818671
+2024-12-08 18:29:42 INFO     Test average HITS10 at step 1600: 0.914669
+2024-12-08 18:29:42 INFO     Training average positive_sample_loss at step 1600: 0.015085
+2024-12-08 18:29:42 INFO     Training average negative_sample_loss at step 1600: 0.020361
+2024-12-08 18:29:42 INFO     Training average loss at step 1600: 0.017723
+2024-12-08 18:30:03 INFO     Training average positive_sample_loss at step 1700: 0.013432
+2024-12-08 18:30:03 INFO     Training average negative_sample_loss at step 1700: 0.018419
+2024-12-08 18:30:03 INFO     Training average loss at step 1700: 0.015926
+2024-12-08 18:30:25 INFO     Training average positive_sample_loss at step 1800: 0.012146
+2024-12-08 18:30:25 INFO     Training average negative_sample_loss at step 1800: 0.017165
+2024-12-08 18:30:25 INFO     Training average loss at step 1800: 0.014655
+2024-12-08 18:30:46 INFO     Training average positive_sample_loss at step 1900: 0.011063
+2024-12-08 18:30:46 INFO     Training average negative_sample_loss at step 1900: 0.015889
+2024-12-08 18:30:46 INFO     Training average loss at step 1900: 0.013476
+2024-12-08 18:31:08 INFO     Training average positive_sample_loss at step 2000: 0.009917
+2024-12-08 18:31:08 INFO     Training average negative_sample_loss at step 2000: 0.014648
+2024-12-08 18:31:08 INFO     Training average loss at step 2000: 0.012283
+2024-12-08 18:31:30 INFO     Training average positive_sample_loss at step 2100: 0.009095
+2024-12-08 18:31:30 INFO     Training average negative_sample_loss at step 2100: 0.013670
+2024-12-08 18:31:30 INFO     Training average loss at step 2100: 0.011383
+2024-12-08 18:31:56 INFO     Training average positive_sample_loss at step 2200: 0.008301
+2024-12-08 18:31:56 INFO     Training average negative_sample_loss at step 2200: 0.012803
+2024-12-08 18:31:56 INFO     Training average loss at step 2200: 0.010552
+2024-12-08 18:32:17 INFO     Training average positive_sample_loss at step 2300: 0.007611
+2024-12-08 18:32:17 INFO     Training average negative_sample_loss at step 2300: 0.012174
+2024-12-08 18:32:17 INFO     Training average loss at step 2300: 0.009893
+2024-12-08 18:32:39 INFO     Evaluating on Valid Dataset...
+2024-12-08 18:32:39 INFO     Evaluating the model... (0/22500)
+2024-12-08 18:32:41 INFO     Evaluating the model... (1000/22500)
+2024-12-08 18:32:43 INFO     Evaluating the model... (2000/22500)
+2024-12-08 18:32:45 INFO     Evaluating the model... (3000/22500)
+2024-12-08 18:32:47 INFO     Evaluating the model... (4000/22500)
+2024-12-08 18:32:49 INFO     Evaluating the model... (5000/22500)
+2024-12-08 18:32:51 INFO     Evaluating the model... (6000/22500)
+2024-12-08 18:32:53 INFO     Evaluating the model... (7000/22500)
+2024-12-08 18:32:55 INFO     Evaluating the model... (8000/22500)
+2024-12-08 18:32:58 INFO     Evaluating the model... (9000/22500)
+2024-12-08 18:33:00 INFO     Evaluating the model... (10000/22500)
+2024-12-08 18:33:03 INFO     Evaluating the model... (11000/22500)
+2024-12-08 18:33:06 INFO     Evaluating the model... (12000/22500)
+2024-12-08 18:33:09 INFO     Evaluating the model... (13000/22500)
+2024-12-08 18:33:11 INFO     Evaluating the model... (14000/22500)
+2024-12-08 18:33:14 INFO     Evaluating the model... (15000/22500)
+2024-12-08 18:33:16 INFO     Evaluating the model... (16000/22500)
+2024-12-08 18:33:19 INFO     Evaluating the model... (17000/22500)
+2024-12-08 18:33:22 INFO     Evaluating the model... (18000/22500)
+2024-12-08 18:33:24 INFO     Evaluating the model... (19000/22500)
+2024-12-08 18:33:26 INFO     Evaluating the model... (20000/22500)
+2024-12-08 18:33:28 INFO     Evaluating the model... (21000/22500)
+2024-12-08 18:33:30 INFO     Evaluating the model... (22000/22500)
+2024-12-08 18:33:32 INFO     Valid 1p MRR at step 2400: 0.115556
+2024-12-08 18:33:32 INFO     Valid 1p HITS1 at step 2400: 0.005200
+2024-12-08 18:33:32 INFO     Valid 1p HITS3 at step 2400: 0.174933
+2024-12-08 18:33:32 INFO     Valid 1p HITS10 at step 2400: 0.311948
+2024-12-08 18:33:32 INFO     Valid 1p num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid 2p MRR at step 2400: 0.033945
+2024-12-08 18:33:32 INFO     Valid 2p HITS1 at step 2400: 0.002000
+2024-12-08 18:33:32 INFO     Valid 2p HITS3 at step 2400: 0.038840
+2024-12-08 18:33:32 INFO     Valid 2p HITS10 at step 2400: 0.093271
+2024-12-08 18:33:32 INFO     Valid 2p num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid 3p MRR at step 2400: 0.009910
+2024-12-08 18:33:32 INFO     Valid 3p HITS1 at step 2400: 0.000447
+2024-12-08 18:33:32 INFO     Valid 3p HITS3 at step 2400: 0.005589
+2024-12-08 18:33:32 INFO     Valid 3p HITS10 at step 2400: 0.019953
+2024-12-08 18:33:32 INFO     Valid 3p num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid 2i MRR at step 2400: 0.074512
+2024-12-08 18:33:32 INFO     Valid 2i HITS1 at step 2400: 0.010000
+2024-12-08 18:33:32 INFO     Valid 2i HITS3 at step 2400: 0.101633
+2024-12-08 18:33:32 INFO     Valid 2i HITS10 at step 2400: 0.206207
+2024-12-08 18:33:32 INFO     Valid 2i num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid 3i MRR at step 2400: 0.085932
+2024-12-08 18:33:32 INFO     Valid 3i HITS1 at step 2400: 0.036467
+2024-12-08 18:33:32 INFO     Valid 3i HITS3 at step 2400: 0.092667
+2024-12-08 18:33:32 INFO     Valid 3i HITS10 at step 2400: 0.179680
+2024-12-08 18:33:32 INFO     Valid 3i num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid pi MRR at step 2400: 0.049868
+2024-12-08 18:33:32 INFO     Valid pi HITS1 at step 2400: 0.013206
+2024-12-08 18:33:32 INFO     Valid pi HITS3 at step 2400: 0.050097
+2024-12-08 18:33:32 INFO     Valid pi HITS10 at step 2400: 0.126599
+2024-12-08 18:33:32 INFO     Valid pi num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid ip MRR at step 2400: 0.111262
+2024-12-08 18:33:32 INFO     Valid ip HITS1 at step 2400: 0.074235
+2024-12-08 18:33:32 INFO     Valid ip HITS3 at step 2400: 0.118162
+2024-12-08 18:33:32 INFO     Valid ip HITS10 at step 2400: 0.184892
+2024-12-08 18:33:32 INFO     Valid ip num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid 2u-DNF MRR at step 2400: 0.023714
+2024-12-08 18:33:32 INFO     Valid 2u-DNF HITS1 at step 2400: 0.001467
+2024-12-08 18:33:32 INFO     Valid 2u-DNF HITS3 at step 2400: 0.020988
+2024-12-08 18:33:32 INFO     Valid 2u-DNF HITS10 at step 2400: 0.057655
+2024-12-08 18:33:32 INFO     Valid 2u-DNF num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid up-DNF MRR at step 2400: 0.106655
+2024-12-08 18:33:32 INFO     Valid up-DNF HITS1 at step 2400: 0.084403
+2024-12-08 18:33:32 INFO     Valid up-DNF HITS3 at step 2400: 0.105119
+2024-12-08 18:33:32 INFO     Valid up-DNF HITS10 at step 2400: 0.147074
+2024-12-08 18:33:32 INFO     Valid up-DNF num_queries at step 2400: 2500.000000
+2024-12-08 18:33:32 INFO     Valid average MRR at step 2400: 0.067928
+2024-12-08 18:33:32 INFO     Valid average HITS1 at step 2400: 0.025269
+2024-12-08 18:33:32 INFO     Valid average HITS3 at step 2400: 0.078670
+2024-12-08 18:33:32 INFO     Valid average HITS10 at step 2400: 0.147475
+2024-12-08 18:33:32 INFO     Evaluating on Test Dataset...
+2024-12-08 18:33:32 INFO     Evaluating the model... (0/5850)
+2024-12-08 18:33:34 INFO     Evaluating the model... (1000/5850)
+2024-12-08 18:33:36 INFO     Evaluating the model... (2000/5850)
+2024-12-08 18:33:38 INFO     Evaluating the model... (3000/5850)
+2024-12-08 18:33:41 INFO     Evaluating the model... (4000/5850)
+2024-12-08 18:33:44 INFO     Evaluating the model... (5000/5850)
+2024-12-08 18:33:46 INFO     Test 1p MRR at step 2400: 0.815705
+2024-12-08 18:33:46 INFO     Test 1p HITS1 at step 2400: 0.631410
+2024-12-08 18:33:46 INFO     Test 1p HITS3 at step 2400: 1.000000
+2024-12-08 18:33:46 INFO     Test 1p HITS10 at step 2400: 1.000000
+2024-12-08 18:33:46 INFO     Test 1p num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test 2p MRR at step 2400: 0.847119
+2024-12-08 18:33:46 INFO     Test 2p HITS1 at step 2400: 0.745163
+2024-12-08 18:33:46 INFO     Test 2p HITS3 at step 2400: 0.942174
+2024-12-08 18:33:46 INFO     Test 2p HITS10 at step 2400: 0.975484
+2024-12-08 18:33:46 INFO     Test 2p num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test 3p MRR at step 2400: 0.803298
+2024-12-08 18:33:46 INFO     Test 3p HITS1 at step 2400: 0.735009
+2024-12-08 18:33:46 INFO     Test 3p HITS3 at step 2400: 0.853854
+2024-12-08 18:33:46 INFO     Test 3p HITS10 at step 2400: 0.918987
+2024-12-08 18:33:46 INFO     Test 3p num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test 2i MRR at step 2400: 0.687563
+2024-12-08 18:33:46 INFO     Test 2i HITS1 at step 2400: 0.530966
+2024-12-08 18:33:46 INFO     Test 2i HITS3 at step 2400: 0.828377
+2024-12-08 18:33:46 INFO     Test 2i HITS10 at step 2400: 0.971995
+2024-12-08 18:33:46 INFO     Test 2i num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test 3i MRR at step 2400: 0.767407
+2024-12-08 18:33:46 INFO     Test 3i HITS1 at step 2400: 0.704169
+2024-12-08 18:33:46 INFO     Test 3i HITS3 at step 2400: 0.792829
+2024-12-08 18:33:46 INFO     Test 3i HITS10 at step 2400: 0.911848
+2024-12-08 18:33:46 INFO     Test 3i num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test pi MRR at step 2400: 0.905917
+2024-12-08 18:33:46 INFO     Test pi HITS1 at step 2400: 0.862933
+2024-12-08 18:33:46 INFO     Test pi HITS3 at step 2400: 0.937841
+2024-12-08 18:33:46 INFO     Test pi HITS10 at step 2400: 0.973029
+2024-12-08 18:33:46 INFO     Test pi num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test ip MRR at step 2400: 0.774993
+2024-12-08 18:33:46 INFO     Test ip HITS1 at step 2400: 0.712407
+2024-12-08 18:33:46 INFO     Test ip HITS3 at step 2400: 0.819494
+2024-12-08 18:33:46 INFO     Test ip HITS10 at step 2400: 0.895423
+2024-12-08 18:33:46 INFO     Test ip num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test 2u-DNF MRR at step 2400: 0.420147
+2024-12-08 18:33:46 INFO     Test 2u-DNF HITS1 at step 2400: 0.104615
+2024-12-08 18:33:46 INFO     Test 2u-DNF HITS3 at step 2400: 0.999872
+2024-12-08 18:33:46 INFO     Test 2u-DNF HITS10 at step 2400: 1.000000
+2024-12-08 18:33:46 INFO     Test 2u-DNF num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test up-DNF MRR at step 2400: 0.719210
+2024-12-08 18:33:46 INFO     Test up-DNF HITS1 at step 2400: 0.598117
+2024-12-08 18:33:46 INFO     Test up-DNF HITS3 at step 2400: 0.810581
+2024-12-08 18:33:46 INFO     Test up-DNF HITS10 at step 2400: 0.947006
+2024-12-08 18:33:46 INFO     Test up-DNF num_queries at step 2400: 650.000000
+2024-12-08 18:33:46 INFO     Test average MRR at step 2400: 0.749040
+2024-12-08 18:33:46 INFO     Test average HITS1 at step 2400: 0.624977
+2024-12-08 18:33:46 INFO     Test average HITS3 at step 2400: 0.887225
+2024-12-08 18:33:46 INFO     Test average HITS10 at step 2400: 0.954863
+2024-12-08 18:33:46 INFO     Training average positive_sample_loss at step 2400: 0.006942
+2024-12-08 18:33:46 INFO     Training average negative_sample_loss at step 2400: 0.011438
+2024-12-08 18:33:46 INFO     Training average loss at step 2400: 0.009190
+2024-12-08 18:34:07 INFO     Training average positive_sample_loss at step 2500: 0.006456
+2024-12-08 18:34:07 INFO     Training average negative_sample_loss at step 2500: 0.010821
+2024-12-08 18:34:07 INFO     Training average loss at step 2500: 0.008639
+2024-12-08 18:34:29 INFO     Training average positive_sample_loss at step 2600: 0.006001
+2024-12-08 18:34:29 INFO     Training average negative_sample_loss at step 2600: 0.010319
+2024-12-08 18:34:29 INFO     Training average loss at step 2600: 0.008160
+2024-12-08 18:34:50 INFO     Training average positive_sample_loss at step 2700: 0.005581
+2024-12-08 18:34:50 INFO     Training average negative_sample_loss at step 2700: 0.009874
+2024-12-08 18:34:50 INFO     Training average loss at step 2700: 0.007728
+2024-12-08 18:35:12 INFO     Training average positive_sample_loss at step 2800: 0.005197
+2024-12-08 18:35:12 INFO     Training average negative_sample_loss at step 2800: 0.009440
+2024-12-08 18:35:12 INFO     Training average loss at step 2800: 0.007318
+2024-12-08 18:35:34 INFO     Training average positive_sample_loss at step 2900: 0.004878
+2024-12-08 18:35:34 INFO     Training average negative_sample_loss at step 2900: 0.009058
+2024-12-08 18:35:34 INFO     Training average loss at step 2900: 0.006968
+2024-12-08 18:35:55 INFO     Training average positive_sample_loss at step 3000: 0.004502
+2024-12-08 18:35:55 INFO     Training average negative_sample_loss at step 3000: 0.008605
+2024-12-08 18:35:55 INFO     Training average loss at step 3000: 0.006553
+2024-12-08 18:36:17 INFO     Training average positive_sample_loss at step 3100: 0.004183
+2024-12-08 18:36:17 INFO     Training average negative_sample_loss at step 3100: 0.008380
+2024-12-08 18:36:17 INFO     Training average loss at step 3100: 0.006281
+2024-12-08 18:36:41 INFO     Evaluating on Valid Dataset...
+2024-12-08 18:36:42 INFO     Evaluating the model... (0/22500)
+2024-12-08 18:36:44 INFO     Evaluating the model... (1000/22500)
+2024-12-08 18:36:46 INFO     Evaluating the model... (2000/22500)
+2024-12-08 18:36:48 INFO     Evaluating the model... (3000/22500)
+2024-12-08 18:36:50 INFO     Evaluating the model... (4000/22500)
+2024-12-08 18:36:52 INFO     Evaluating the model... (5000/22500)
+2024-12-08 18:36:54 INFO     Evaluating the model... (6000/22500)
+2024-12-08 18:36:56 INFO     Evaluating the model... (7000/22500)
+2024-12-08 18:36:59 INFO     Evaluating the model... (8000/22500)
+2024-12-08 18:37:01 INFO     Evaluating the model... (9000/22500)
+2024-12-08 18:37:04 INFO     Evaluating the model... (10000/22500)
+2024-12-08 18:37:07 INFO     Evaluating the model... (11000/22500)
+2024-12-08 18:37:09 INFO     Evaluating the model... (12000/22500)
+2024-12-08 18:37:12 INFO     Evaluating the model... (13000/22500)
+2024-12-08 18:37:15 INFO     Evaluating the model... (14000/22500)
+2024-12-08 18:37:17 INFO     Evaluating the model... (15000/22500)
+2024-12-08 18:37:20 INFO     Evaluating the model... (16000/22500)
+2024-12-08 18:37:23 INFO     Evaluating the model... (17000/22500)
+2024-12-08 18:37:25 INFO     Evaluating the model... (18000/22500)
+2024-12-08 18:37:27 INFO     Evaluating the model... (19000/22500)
+2024-12-08 18:37:29 INFO     Evaluating the model... (20000/22500)
+2024-12-08 18:37:32 INFO     Evaluating the model... (21000/22500)
+2024-12-08 18:37:34 INFO     Evaluating the model... (22000/22500)
+2024-12-08 18:37:35 INFO     Valid 1p MRR at step 3200: 0.147078
+2024-12-08 18:37:35 INFO     Valid 1p HITS1 at step 3200: 0.014000
+2024-12-08 18:37:35 INFO     Valid 1p HITS3 at step 3200: 0.229033
+2024-12-08 18:37:35 INFO     Valid 1p HITS10 at step 3200: 0.374035
+2024-12-08 18:37:35 INFO     Valid 1p num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid 2p MRR at step 3200: 0.050291
+2024-12-08 18:37:35 INFO     Valid 2p HITS1 at step 3200: 0.006933
+2024-12-08 18:37:35 INFO     Valid 2p HITS3 at step 3200: 0.066940
+2024-12-08 18:37:35 INFO     Valid 2p HITS10 at step 3200: 0.127566
+2024-12-08 18:37:35 INFO     Valid 2p num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid 3p MRR at step 3200: 0.013492
+2024-12-08 18:37:35 INFO     Valid 3p HITS1 at step 3200: 0.000856
+2024-12-08 18:37:35 INFO     Valid 3p HITS3 at step 3200: 0.009635
+2024-12-08 18:37:35 INFO     Valid 3p HITS10 at step 3200: 0.029332
+2024-12-08 18:37:35 INFO     Valid 3p num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid 2i MRR at step 3200: 0.119493
+2024-12-08 18:37:35 INFO     Valid 2i HITS1 at step 3200: 0.040000
+2024-12-08 18:37:35 INFO     Valid 2i HITS3 at step 3200: 0.155200
+2024-12-08 18:37:35 INFO     Valid 2i HITS10 at step 3200: 0.276773
+2024-12-08 18:37:35 INFO     Valid 2i num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid 3i MRR at step 3200: 0.137853
+2024-12-08 18:37:35 INFO     Valid 3i HITS1 at step 3200: 0.080800
+2024-12-08 18:37:35 INFO     Valid 3i HITS3 at step 3200: 0.149380
+2024-12-08 18:37:35 INFO     Valid 3i HITS10 at step 3200: 0.249741
+2024-12-08 18:37:35 INFO     Valid 3i num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid pi MRR at step 3200: 0.081246
+2024-12-08 18:37:35 INFO     Valid pi HITS1 at step 3200: 0.033733
+2024-12-08 18:37:35 INFO     Valid pi HITS3 at step 3200: 0.086503
+2024-12-08 18:37:35 INFO     Valid pi HITS10 at step 3200: 0.180663
+2024-12-08 18:37:35 INFO     Valid pi num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid ip MRR at step 3200: 0.141386
+2024-12-08 18:37:35 INFO     Valid ip HITS1 at step 3200: 0.090114
+2024-12-08 18:37:35 INFO     Valid ip HITS3 at step 3200: 0.165737
+2024-12-08 18:37:35 INFO     Valid ip HITS10 at step 3200: 0.229794
+2024-12-08 18:37:35 INFO     Valid ip num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid 2u-DNF MRR at step 3200: 0.031795
+2024-12-08 18:37:35 INFO     Valid 2u-DNF HITS1 at step 3200: 0.002400
+2024-12-08 18:37:35 INFO     Valid 2u-DNF HITS3 at step 3200: 0.024972
+2024-12-08 18:37:35 INFO     Valid 2u-DNF HITS10 at step 3200: 0.079906
+2024-12-08 18:37:35 INFO     Valid 2u-DNF num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid up-DNF MRR at step 3200: 0.124209
+2024-12-08 18:37:35 INFO     Valid up-DNF HITS1 at step 3200: 0.089311
+2024-12-08 18:37:35 INFO     Valid up-DNF HITS3 at step 3200: 0.132065
+2024-12-08 18:37:35 INFO     Valid up-DNF HITS10 at step 3200: 0.188320
+2024-12-08 18:37:35 INFO     Valid up-DNF num_queries at step 3200: 2500.000000
+2024-12-08 18:37:35 INFO     Valid average MRR at step 3200: 0.094094
+2024-12-08 18:37:35 INFO     Valid average HITS1 at step 3200: 0.039794
+2024-12-08 18:37:35 INFO     Valid average HITS3 at step 3200: 0.113274
+2024-12-08 18:37:35 INFO     Valid average HITS10 at step 3200: 0.192903
+2024-12-08 18:37:35 INFO     Evaluating on Test Dataset...
+2024-12-08 18:37:35 INFO     Evaluating the model... (0/5850)
+2024-12-08 18:37:37 INFO     Evaluating the model... (1000/5850)
+2024-12-08 18:37:39 INFO     Evaluating the model... (2000/5850)
+2024-12-08 18:37:42 INFO     Evaluating the model... (3000/5850)
+2024-12-08 18:37:45 INFO     Evaluating the model... (4000/5850)
+2024-12-08 18:37:47 INFO     Evaluating the model... (5000/5850)
+2024-12-08 18:37:49 INFO     Test 1p MRR at step 3200: 0.898923
+2024-12-08 18:37:49 INFO     Test 1p HITS1 at step 3200: 0.797846
+2024-12-08 18:37:49 INFO     Test 1p HITS3 at step 3200: 1.000000
+2024-12-08 18:37:49 INFO     Test 1p HITS10 at step 3200: 1.000000
+2024-12-08 18:37:49 INFO     Test 1p num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test 2p MRR at step 3200: 0.905030
+2024-12-08 18:37:49 INFO     Test 2p HITS1 at step 3200: 0.834879
+2024-12-08 18:37:49 INFO     Test 2p HITS3 at step 3200: 0.974448
+2024-12-08 18:37:49 INFO     Test 2p HITS10 at step 3200: 0.985721
+2024-12-08 18:37:49 INFO     Test 2p num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test 3p MRR at step 3200: 0.859470
+2024-12-08 18:37:49 INFO     Test 3p HITS1 at step 3200: 0.804659
+2024-12-08 18:37:49 INFO     Test 3p HITS3 at step 3200: 0.901108
+2024-12-08 18:37:49 INFO     Test 3p HITS10 at step 3200: 0.960439
+2024-12-08 18:37:49 INFO     Test 3p num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test 2i MRR at step 3200: 0.800153
+2024-12-08 18:37:49 INFO     Test 2i HITS1 at step 3200: 0.686386
+2024-12-08 18:37:49 INFO     Test 2i HITS3 at step 3200: 0.903703
+2024-12-08 18:37:49 INFO     Test 2i HITS10 at step 3200: 0.989938
+2024-12-08 18:37:49 INFO     Test 2i num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test 3i MRR at step 3200: 0.830813
+2024-12-08 18:37:49 INFO     Test 3i HITS1 at step 3200: 0.770372
+2024-12-08 18:37:49 INFO     Test 3i HITS3 at step 3200: 0.865667
+2024-12-08 18:37:49 INFO     Test 3i HITS10 at step 3200: 0.962122
+2024-12-08 18:37:49 INFO     Test 3i num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test pi MRR at step 3200: 0.939437
+2024-12-08 18:37:49 INFO     Test pi HITS1 at step 3200: 0.913422
+2024-12-08 18:37:49 INFO     Test pi HITS3 at step 3200: 0.958397
+2024-12-08 18:37:49 INFO     Test pi HITS10 at step 3200: 0.986256
+2024-12-08 18:37:49 INFO     Test pi num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test ip MRR at step 3200: 0.838138
+2024-12-08 18:37:49 INFO     Test ip HITS1 at step 3200: 0.786541
+2024-12-08 18:37:49 INFO     Test ip HITS3 at step 3200: 0.875529
+2024-12-08 18:37:49 INFO     Test ip HITS10 at step 3200: 0.930033
+2024-12-08 18:37:49 INFO     Test ip num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test 2u-DNF MRR at step 3200: 0.470270
+2024-12-08 18:37:49 INFO     Test 2u-DNF HITS1 at step 3200: 0.135385
+2024-12-08 18:37:49 INFO     Test 2u-DNF HITS3 at step 3200: 0.999872
+2024-12-08 18:37:49 INFO     Test 2u-DNF HITS10 at step 3200: 1.000000
+2024-12-08 18:37:49 INFO     Test 2u-DNF num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test up-DNF MRR at step 3200: 0.821739
+2024-12-08 18:37:49 INFO     Test up-DNF HITS1 at step 3200: 0.715629
+2024-12-08 18:37:49 INFO     Test up-DNF HITS3 at step 3200: 0.928084
+2024-12-08 18:37:49 INFO     Test up-DNF HITS10 at step 3200: 0.966818
+2024-12-08 18:37:49 INFO     Test up-DNF num_queries at step 3200: 650.000000
+2024-12-08 18:37:49 INFO     Test average MRR at step 3200: 0.818219
+2024-12-08 18:37:49 INFO     Test average HITS1 at step 3200: 0.716124
+2024-12-08 18:37:49 INFO     Test average HITS3 at step 3200: 0.934090
+2024-12-08 18:37:49 INFO     Test average HITS10 at step 3200: 0.975703
+2024-12-08 18:37:49 INFO     Training average positive_sample_loss at step 3200: 0.003958
+2024-12-08 18:37:49 INFO     Training average negative_sample_loss at step 3200: 0.008137
+2024-12-08 18:37:49 INFO     Training average loss at step 3200: 0.006047
+2024-12-08 18:38:10 INFO     Training average positive_sample_loss at step 3300: 0.003742
+2024-12-08 18:38:10 INFO     Training average negative_sample_loss at step 3300: 0.007744
+2024-12-08 18:38:10 INFO     Training average loss at step 3300: 0.005743
+2024-12-08 18:38:32 INFO     Training average positive_sample_loss at step 3400: 0.003511
+2024-12-08 18:38:32 INFO     Training average negative_sample_loss at step 3400: 0.007402
+2024-12-08 18:38:32 INFO     Training average loss at step 3400: 0.005456
+2024-12-08 18:38:54 INFO     Training average positive_sample_loss at step 3500: 0.003380
+2024-12-08 18:38:54 INFO     Training average negative_sample_loss at step 3500: 0.007406
+2024-12-08 18:38:54 INFO     Training average loss at step 3500: 0.005393
+2024-12-08 18:39:16 INFO     Training average positive_sample_loss at step 3600: 0.003294
+2024-12-08 18:39:16 INFO     Training average negative_sample_loss at step 3600: 0.007416
+2024-12-08 18:39:16 INFO     Training average loss at step 3600: 0.005355
+2024-12-08 18:39:37 INFO     Training average positive_sample_loss at step 3700: 0.003056
+2024-12-08 18:39:37 INFO     Training average negative_sample_loss at step 3700: 0.007069
+2024-12-08 18:39:37 INFO     Training average loss at step 3700: 0.005063
+2024-12-08 18:39:59 INFO     Training average positive_sample_loss at step 3800: 0.002862
+2024-12-08 18:39:59 INFO     Training average negative_sample_loss at step 3800: 0.006948
+2024-12-08 18:39:59 INFO     Training average loss at step 3800: 0.004905
+2024-12-08 18:40:21 INFO     Training average positive_sample_loss at step 3900: 0.002745
+2024-12-08 18:40:21 INFO     Training average negative_sample_loss at step 3900: 0.006744
+2024-12-08 18:40:21 INFO     Training average loss at step 3900: 0.004744
+2024-12-08 18:40:42 INFO     Change learning_rate to 0.000020 at step 4000
+2024-12-08 18:40:42 INFO     Evaluating on Valid Dataset...
+2024-12-08 18:40:42 INFO     Evaluating the model... (0/22500)
+2024-12-08 18:40:44 INFO     Evaluating the model... (1000/22500)
+2024-12-08 18:40:46 INFO     Evaluating the model... (2000/22500)
+2024-12-08 18:40:48 INFO     Evaluating the model... (3000/22500)
+2024-12-08 18:40:50 INFO     Evaluating the model... (4000/22500)
+2024-12-08 18:40:53 INFO     Evaluating the model... (5000/22500)
+2024-12-08 18:40:55 INFO     Evaluating the model... (6000/22500)
+2024-12-08 18:40:57 INFO     Evaluating the model... (7000/22500)
+2024-12-08 18:40:59 INFO     Evaluating the model... (8000/22500)
+2024-12-08 18:41:02 INFO     Evaluating the model... (9000/22500)
+2024-12-08 18:41:05 INFO     Evaluating the model... (10000/22500)
+2024-12-08 18:41:07 INFO     Evaluating the model... (11000/22500)
+2024-12-08 18:41:10 INFO     Evaluating the model... (12000/22500)
+2024-12-08 18:41:13 INFO     Evaluating the model... (13000/22500)
+2024-12-08 18:41:15 INFO     Evaluating the model... (14000/22500)
+2024-12-08 18:41:18 INFO     Evaluating the model... (15000/22500)
+2024-12-08 18:41:20 INFO     Evaluating the model... (16000/22500)
+2024-12-08 18:41:23 INFO     Evaluating the model... (17000/22500)
+2024-12-08 18:41:26 INFO     Evaluating the model... (18000/22500)
+2024-12-08 18:41:28 INFO     Evaluating the model... (19000/22500)
+2024-12-08 18:41:30 INFO     Evaluating the model... (20000/22500)
+2024-12-08 18:41:32 INFO     Evaluating the model... (21000/22500)
+2024-12-08 18:41:34 INFO     Evaluating the model... (22000/22500)
+2024-12-08 18:41:36 INFO     Valid 1p MRR at step 4000: 0.175222
+2024-12-08 18:41:36 INFO     Valid 1p HITS1 at step 4000: 0.027800
+2024-12-08 18:41:36 INFO     Valid 1p HITS3 at step 4000: 0.274613
+2024-12-08 18:41:36 INFO     Valid 1p HITS10 at step 4000: 0.423734
+2024-12-08 18:41:36 INFO     Valid 1p num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid 2p MRR at step 4000: 0.070238
+2024-12-08 18:41:36 INFO     Valid 2p HITS1 at step 4000: 0.022667
+2024-12-08 18:41:36 INFO     Valid 2p HITS3 at step 4000: 0.085887
+2024-12-08 18:41:36 INFO     Valid 2p HITS10 at step 4000: 0.158901
+2024-12-08 18:41:36 INFO     Valid 2p num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid 3p MRR at step 4000: 0.018257
+2024-12-08 18:41:36 INFO     Valid 3p HITS1 at step 4000: 0.002989
+2024-12-08 18:41:36 INFO     Valid 3p HITS3 at step 4000: 0.014121
+2024-12-08 18:41:36 INFO     Valid 3p HITS10 at step 4000: 0.039610
+2024-12-08 18:41:36 INFO     Valid 3p num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid 2i MRR at step 4000: 0.172806
+2024-12-08 18:41:36 INFO     Valid 2i HITS1 at step 4000: 0.090467
+2024-12-08 18:41:36 INFO     Valid 2i HITS3 at step 4000: 0.213073
+2024-12-08 18:41:36 INFO     Valid 2i HITS10 at step 4000: 0.328034
+2024-12-08 18:41:36 INFO     Valid 2i num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid 3i MRR at step 4000: 0.186340
+2024-12-08 18:41:36 INFO     Valid 3i HITS1 at step 4000: 0.127800
+2024-12-08 18:41:36 INFO     Valid 3i HITS3 at step 4000: 0.205328
+2024-12-08 18:41:36 INFO     Valid 3i HITS10 at step 4000: 0.293885
+2024-12-08 18:41:36 INFO     Valid 3i num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid pi MRR at step 4000: 0.112775
+2024-12-08 18:41:36 INFO     Valid pi HITS1 at step 4000: 0.059933
+2024-12-08 18:41:36 INFO     Valid pi HITS3 at step 4000: 0.121887
+2024-12-08 18:41:36 INFO     Valid pi HITS10 at step 4000: 0.221798
+2024-12-08 18:41:36 INFO     Valid pi num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid ip MRR at step 4000: 0.160962
+2024-12-08 18:41:36 INFO     Valid ip HITS1 at step 4000: 0.103002
+2024-12-08 18:41:36 INFO     Valid ip HITS3 at step 4000: 0.191232
+2024-12-08 18:41:36 INFO     Valid ip HITS10 at step 4000: 0.258089
+2024-12-08 18:41:36 INFO     Valid ip num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid 2u-DNF MRR at step 4000: 0.041331
+2024-12-08 18:41:36 INFO     Valid 2u-DNF HITS1 at step 4000: 0.004600
+2024-12-08 18:41:36 INFO     Valid 2u-DNF HITS3 at step 4000: 0.030912
+2024-12-08 18:41:36 INFO     Valid 2u-DNF HITS10 at step 4000: 0.113378
+2024-12-08 18:41:36 INFO     Valid 2u-DNF num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid up-DNF MRR at step 4000: 0.139732
+2024-12-08 18:41:36 INFO     Valid up-DNF HITS1 at step 4000: 0.099585
+2024-12-08 18:41:36 INFO     Valid up-DNF HITS3 at step 4000: 0.152813
+2024-12-08 18:41:36 INFO     Valid up-DNF HITS10 at step 4000: 0.211350
+2024-12-08 18:41:36 INFO     Valid up-DNF num_queries at step 4000: 2500.000000
+2024-12-08 18:41:36 INFO     Valid average MRR at step 4000: 0.119740
+2024-12-08 18:41:36 INFO     Valid average HITS1 at step 4000: 0.059871
+2024-12-08 18:41:36 INFO     Valid average HITS3 at step 4000: 0.143318
+2024-12-08 18:41:36 INFO     Valid average HITS10 at step 4000: 0.227642
+2024-12-08 18:41:36 INFO     Evaluating on Test Dataset...
+2024-12-08 18:41:36 INFO     Evaluating the model... (0/5850)
+2024-12-08 18:41:38 INFO     Evaluating the model... (1000/5850)
+2024-12-08 18:41:40 INFO     Evaluating the model... (2000/5850)
+2024-12-08 18:41:42 INFO     Evaluating the model... (3000/5850)
+2024-12-08 18:41:45 INFO     Evaluating the model... (4000/5850)
+2024-12-08 18:41:47 INFO     Evaluating the model... (5000/5850)
+2024-12-08 18:41:49 INFO     Test 1p MRR at step 4000: 0.927019
+2024-12-08 18:41:49 INFO     Test 1p HITS1 at step 4000: 0.854038
+2024-12-08 18:41:49 INFO     Test 1p HITS3 at step 4000: 1.000000
+2024-12-08 18:41:49 INFO     Test 1p HITS10 at step 4000: 1.000000
+2024-12-08 18:41:49 INFO     Test 1p num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test 2p MRR at step 4000: 0.938564
+2024-12-08 18:41:49 INFO     Test 2p HITS1 at step 4000: 0.891229
+2024-12-08 18:41:49 INFO     Test 2p HITS3 at step 4000: 0.985127
+2024-12-08 18:41:49 INFO     Test 2p HITS10 at step 4000: 0.990120
+2024-12-08 18:41:49 INFO     Test 2p num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test 3p MRR at step 4000: 0.891163
+2024-12-08 18:41:49 INFO     Test 3p HITS1 at step 4000: 0.833680
+2024-12-08 18:41:49 INFO     Test 3p HITS3 at step 4000: 0.942984
+2024-12-08 18:41:49 INFO     Test 3p HITS10 at step 4000: 0.976048
+2024-12-08 18:41:49 INFO     Test 3p num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test 2i MRR at step 4000: 0.865570
+2024-12-08 18:41:49 INFO     Test 2i HITS1 at step 4000: 0.780812
+2024-12-08 18:41:49 INFO     Test 2i HITS3 at step 4000: 0.945313
+2024-12-08 18:41:49 INFO     Test 2i HITS10 at step 4000: 0.997295
+2024-12-08 18:41:49 INFO     Test 2i num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test 3i MRR at step 4000: 0.866985
+2024-12-08 18:41:49 INFO     Test 3i HITS1 at step 4000: 0.809491
+2024-12-08 18:41:49 INFO     Test 3i HITS3 at step 4000: 0.907965
+2024-12-08 18:41:49 INFO     Test 3i HITS10 at step 4000: 0.983990
+2024-12-08 18:41:49 INFO     Test 3i num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test pi MRR at step 4000: 0.955547
+2024-12-08 18:41:49 INFO     Test pi HITS1 at step 4000: 0.933044
+2024-12-08 18:41:49 INFO     Test pi HITS3 at step 4000: 0.972609
+2024-12-08 18:41:49 INFO     Test pi HITS10 at step 4000: 0.991416
+2024-12-08 18:41:49 INFO     Test pi num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test ip MRR at step 4000: 0.877728
+2024-12-08 18:41:49 INFO     Test ip HITS1 at step 4000: 0.834031
+2024-12-08 18:41:49 INFO     Test ip HITS3 at step 4000: 0.909452
+2024-12-08 18:41:49 INFO     Test ip HITS10 at step 4000: 0.946447
+2024-12-08 18:41:49 INFO     Test ip num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test 2u-DNF MRR at step 4000: 0.500581
+2024-12-08 18:41:49 INFO     Test 2u-DNF HITS1 at step 4000: 0.154464
+2024-12-08 18:41:49 INFO     Test 2u-DNF HITS3 at step 4000: 0.999487
+2024-12-08 18:41:49 INFO     Test 2u-DNF HITS10 at step 4000: 1.000000
+2024-12-08 18:41:49 INFO     Test 2u-DNF num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test up-DNF MRR at step 4000: 0.902755
+2024-12-08 18:41:49 INFO     Test up-DNF HITS1 at step 4000: 0.838512
+2024-12-08 18:41:49 INFO     Test up-DNF HITS3 at step 4000: 0.973313
+2024-12-08 18:41:49 INFO     Test up-DNF HITS10 at step 4000: 0.991886
+2024-12-08 18:41:49 INFO     Test up-DNF num_queries at step 4000: 650.000000
+2024-12-08 18:41:49 INFO     Test average MRR at step 4000: 0.858435
+2024-12-08 18:41:49 INFO     Test average HITS1 at step 4000: 0.769922
+2024-12-08 18:41:49 INFO     Test average HITS3 at step 4000: 0.959583
+2024-12-08 18:41:49 INFO     Test average HITS10 at step 4000: 0.986356
+2024-12-08 18:41:49 INFO     Training average positive_sample_loss at step 4000: 0.002668
+2024-12-08 18:41:49 INFO     Training average negative_sample_loss at step 4000: 0.006607
+2024-12-08 18:41:49 INFO     Training average loss at step 4000: 0.004638
+2024-12-08 18:42:12 INFO     Training average positive_sample_loss at step 4100: 0.002564
+2024-12-08 18:42:12 INFO     Training average negative_sample_loss at step 4100: 0.006589
+2024-12-08 18:42:12 INFO     Training average loss at step 4100: 0.004576
+2024-12-08 18:42:37 INFO     Training average positive_sample_loss at step 4200: 0.002562
+2024-12-08 18:42:37 INFO     Training average negative_sample_loss at step 4200: 0.006558
+2024-12-08 18:42:37 INFO     Training average loss at step 4200: 0.004560
+2024-12-08 18:42:58 INFO     Training average positive_sample_loss at step 4300: 0.002540
+2024-12-08 18:42:58 INFO     Training average negative_sample_loss at step 4300: 0.006498
+2024-12-08 18:42:58 INFO     Training average loss at step 4300: 0.004519
+2024-12-08 18:43:20 INFO     Training average positive_sample_loss at step 4400: 0.002489
+2024-12-08 18:43:20 INFO     Training average negative_sample_loss at step 4400: 0.006548
+2024-12-08 18:43:20 INFO     Training average loss at step 4400: 0.004519
+2024-12-08 18:43:42 INFO     Training average positive_sample_loss at step 4500: 0.002473
+2024-12-08 18:43:42 INFO     Training average negative_sample_loss at step 4500: 0.006460
+2024-12-08 18:43:42 INFO     Training average loss at step 4500: 0.004467
+2024-12-08 18:44:03 INFO     Training average positive_sample_loss at step 4600: 0.002481
+2024-12-08 18:44:03 INFO     Training average negative_sample_loss at step 4600: 0.006527
+2024-12-08 18:44:03 INFO     Training average loss at step 4600: 0.004504
+2024-12-08 18:44:25 INFO     Training average positive_sample_loss at step 4700: 0.002427
+2024-12-08 18:44:25 INFO     Training average negative_sample_loss at step 4700: 0.006462
+2024-12-08 18:44:25 INFO     Training average loss at step 4700: 0.004445
+2024-12-08 18:44:47 INFO     Evaluating on Valid Dataset...
+2024-12-08 18:44:47 INFO     Evaluating the model... (0/22500)
+2024-12-08 18:44:49 INFO     Evaluating the model... (1000/22500)
+2024-12-08 18:44:51 INFO     Evaluating the model... (2000/22500)
+2024-12-08 18:44:53 INFO     Evaluating the model... (3000/22500)
+2024-12-08 18:44:55 INFO     Evaluating the model... (4000/22500)
+2024-12-08 18:44:57 INFO     Evaluating the model... (5000/22500)
+2024-12-08 18:44:59 INFO     Evaluating the model... (6000/22500)
+2024-12-08 18:45:01 INFO     Evaluating the model... (7000/22500)
+2024-12-08 18:45:04 INFO     Evaluating the model... (8000/22500)
+2024-12-08 18:45:06 INFO     Evaluating the model... (9000/22500)
+2024-12-08 18:45:09 INFO     Evaluating the model... (10000/22500)
+2024-12-08 18:45:12 INFO     Evaluating the model... (11000/22500)
+2024-12-08 18:45:14 INFO     Evaluating the model... (12000/22500)
+2024-12-08 18:45:17 INFO     Evaluating the model... (13000/22500)
+2024-12-08 18:45:20 INFO     Evaluating the model... (14000/22500)
+2024-12-08 18:45:22 INFO     Evaluating the model... (15000/22500)
+2024-12-08 18:45:25 INFO     Evaluating the model... (16000/22500)
+2024-12-08 18:45:28 INFO     Evaluating the model... (17000/22500)
+2024-12-08 18:45:30 INFO     Evaluating the model... (18000/22500)
+2024-12-08 18:45:32 INFO     Evaluating the model... (19000/22500)
+2024-12-08 18:45:34 INFO     Evaluating the model... (20000/22500)
+2024-12-08 18:45:37 INFO     Evaluating the model... (21000/22500)
+2024-12-08 18:45:39 INFO     Evaluating the model... (22000/22500)
+2024-12-08 18:45:40 INFO     Valid 1p MRR at step 4800: 0.181067
+2024-12-08 18:45:40 INFO     Valid 1p HITS1 at step 4800: 0.029333
+2024-12-08 18:45:40 INFO     Valid 1p HITS3 at step 4800: 0.286207
+2024-12-08 18:45:40 INFO     Valid 1p HITS10 at step 4800: 0.430425
+2024-12-08 18:45:40 INFO     Valid 1p num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid 2p MRR at step 4800: 0.074133
+2024-12-08 18:45:40 INFO     Valid 2p HITS1 at step 4800: 0.024800
+2024-12-08 18:45:40 INFO     Valid 2p HITS3 at step 4800: 0.091820
+2024-12-08 18:45:40 INFO     Valid 2p HITS10 at step 4800: 0.163253
+2024-12-08 18:45:40 INFO     Valid 2p num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid 3p MRR at step 4800: 0.019373
+2024-12-08 18:45:40 INFO     Valid 3p HITS1 at step 4800: 0.003389
+2024-12-08 18:45:40 INFO     Valid 3p HITS3 at step 4800: 0.016363
+2024-12-08 18:45:40 INFO     Valid 3p HITS10 at step 4800: 0.042641
+2024-12-08 18:45:40 INFO     Valid 3p num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid 2i MRR at step 4800: 0.183421
+2024-12-08 18:45:40 INFO     Valid 2i HITS1 at step 4800: 0.098933
+2024-12-08 18:45:40 INFO     Valid 2i HITS3 at step 4800: 0.224207
+2024-12-08 18:45:40 INFO     Valid 2i HITS10 at step 4800: 0.340774
+2024-12-08 18:45:40 INFO     Valid 2i num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid 3i MRR at step 4800: 0.196943
+2024-12-08 18:45:40 INFO     Valid 3i HITS1 at step 4800: 0.137300
+2024-12-08 18:45:40 INFO     Valid 3i HITS3 at step 4800: 0.214674
+2024-12-08 18:45:40 INFO     Valid 3i HITS10 at step 4800: 0.301602
+2024-12-08 18:45:40 INFO     Valid 3i num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid pi MRR at step 4800: 0.119648
+2024-12-08 18:45:40 INFO     Valid pi HITS1 at step 4800: 0.065533
+2024-12-08 18:45:40 INFO     Valid pi HITS3 at step 4800: 0.126210
+2024-12-08 18:45:40 INFO     Valid pi HITS10 at step 4800: 0.230543
+2024-12-08 18:45:40 INFO     Valid pi num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid ip MRR at step 4800: 0.164674
+2024-12-08 18:45:40 INFO     Valid ip HITS1 at step 4800: 0.105590
+2024-12-08 18:45:40 INFO     Valid ip HITS3 at step 4800: 0.196752
+2024-12-08 18:45:40 INFO     Valid ip HITS10 at step 4800: 0.266551
+2024-12-08 18:45:40 INFO     Valid ip num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid 2u-DNF MRR at step 4800: 0.043940
+2024-12-08 18:45:40 INFO     Valid 2u-DNF HITS1 at step 4800: 0.006257
+2024-12-08 18:45:40 INFO     Valid 2u-DNF HITS3 at step 4800: 0.030989
+2024-12-08 18:45:40 INFO     Valid 2u-DNF HITS10 at step 4800: 0.117510
+2024-12-08 18:45:40 INFO     Valid 2u-DNF num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid up-DNF MRR at step 4800: 0.142809
+2024-12-08 18:45:40 INFO     Valid up-DNF HITS1 at step 4800: 0.102583
+2024-12-08 18:45:40 INFO     Valid up-DNF HITS3 at step 4800: 0.154026
+2024-12-08 18:45:40 INFO     Valid up-DNF HITS10 at step 4800: 0.214711
+2024-12-08 18:45:40 INFO     Valid up-DNF num_queries at step 4800: 2500.000000
+2024-12-08 18:45:40 INFO     Valid average MRR at step 4800: 0.125112
+2024-12-08 18:45:40 INFO     Valid average HITS1 at step 4800: 0.063747
+2024-12-08 18:45:40 INFO     Valid average HITS3 at step 4800: 0.149028
+2024-12-08 18:45:40 INFO     Valid average HITS10 at step 4800: 0.234223
+2024-12-08 18:45:40 INFO     Evaluating on Test Dataset...
+2024-12-08 18:45:40 INFO     Evaluating the model... (0/5850)
+2024-12-08 18:45:42 INFO     Evaluating the model... (1000/5850)
+2024-12-08 18:45:44 INFO     Evaluating the model... (2000/5850)
+2024-12-08 18:45:47 INFO     Evaluating the model... (3000/5850)
+2024-12-08 18:45:50 INFO     Evaluating the model... (4000/5850)
+2024-12-08 18:45:52 INFO     Evaluating the model... (5000/5850)
+2024-12-08 18:45:54 INFO     Test 1p MRR at step 4800: 0.938359
+2024-12-08 18:45:54 INFO     Test 1p HITS1 at step 4800: 0.876718
+2024-12-08 18:45:54 INFO     Test 1p HITS3 at step 4800: 1.000000
+2024-12-08 18:45:54 INFO     Test 1p HITS10 at step 4800: 1.000000
+2024-12-08 18:45:54 INFO     Test 1p num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test 2p MRR at step 4800: 0.945847
+2024-12-08 18:45:54 INFO     Test 2p HITS1 at step 4800: 0.904698
+2024-12-08 18:45:54 INFO     Test 2p HITS3 at step 4800: 0.986072
+2024-12-08 18:45:54 INFO     Test 2p HITS10 at step 4800: 0.990647
+2024-12-08 18:45:54 INFO     Test 2p num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test 3p MRR at step 4800: 0.896021
+2024-12-08 18:45:54 INFO     Test 3p HITS1 at step 4800: 0.838714
+2024-12-08 18:45:54 INFO     Test 3p HITS3 at step 4800: 0.947252
+2024-12-08 18:45:54 INFO     Test 3p HITS10 at step 4800: 0.979227
+2024-12-08 18:45:54 INFO     Test 3p num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test 2i MRR at step 4800: 0.874616
+2024-12-08 18:45:54 INFO     Test 2i HITS1 at step 4800: 0.793040
+2024-12-08 18:45:54 INFO     Test 2i HITS3 at step 4800: 0.952075
+2024-12-08 18:45:54 INFO     Test 2i HITS10 at step 4800: 0.998004
+2024-12-08 18:45:54 INFO     Test 2i num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test 3i MRR at step 4800: 0.873853
+2024-12-08 18:45:54 INFO     Test 3i HITS1 at step 4800: 0.815113
+2024-12-08 18:45:54 INFO     Test 3i HITS3 at step 4800: 0.914942
+2024-12-08 18:45:54 INFO     Test 3i HITS10 at step 4800: 0.988223
+2024-12-08 18:45:54 INFO     Test 3i num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test pi MRR at step 4800: 0.958788
+2024-12-08 18:45:54 INFO     Test pi HITS1 at step 4800: 0.937038
+2024-12-08 18:45:54 INFO     Test pi HITS3 at step 4800: 0.977046
+2024-12-08 18:45:54 INFO     Test pi HITS10 at step 4800: 0.992013
+2024-12-08 18:45:54 INFO     Test pi num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test ip MRR at step 4800: 0.884546
+2024-12-08 18:45:54 INFO     Test ip HITS1 at step 4800: 0.842853
+2024-12-08 18:45:54 INFO     Test ip HITS3 at step 4800: 0.915550
+2024-12-08 18:45:54 INFO     Test ip HITS10 at step 4800: 0.948516
+2024-12-08 18:45:54 INFO     Test ip num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test 2u-DNF MRR at step 4800: 0.515928
+2024-12-08 18:45:54 INFO     Test 2u-DNF HITS1 at step 4800: 0.175028
+2024-12-08 18:45:54 INFO     Test 2u-DNF HITS3 at step 4800: 0.999487
+2024-12-08 18:45:54 INFO     Test 2u-DNF HITS10 at step 4800: 1.000000
+2024-12-08 18:45:54 INFO     Test 2u-DNF num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test up-DNF MRR at step 4800: 0.914158
+2024-12-08 18:45:54 INFO     Test up-DNF HITS1 at step 4800: 0.854365
+2024-12-08 18:45:54 INFO     Test up-DNF HITS3 at step 4800: 0.980667
+2024-12-08 18:45:54 INFO     Test up-DNF HITS10 at step 4800: 0.993315
+2024-12-08 18:45:54 INFO     Test up-DNF num_queries at step 4800: 650.000000
+2024-12-08 18:45:54 INFO     Test average MRR at step 4800: 0.866902
+2024-12-08 18:45:54 INFO     Test average HITS1 at step 4800: 0.781952
+2024-12-08 18:45:54 INFO     Test average HITS3 at step 4800: 0.963677
+2024-12-08 18:45:54 INFO     Test average HITS10 at step 4800: 0.987772
+2024-12-08 18:45:54 INFO     Training average positive_sample_loss at step 4800: 0.002404
+2024-12-08 18:45:54 INFO     Training average negative_sample_loss at step 4800: 0.006290
+2024-12-08 18:45:54 INFO     Training average loss at step 4800: 0.004347
+2024-12-08 18:46:16 INFO     Training average positive_sample_loss at step 4900: 0.002394
+2024-12-08 18:46:16 INFO     Training average negative_sample_loss at step 4900: 0.006349
+2024-12-08 18:46:16 INFO     Training average loss at step 4900: 0.004371
+2024-12-08 18:46:37 INFO     Training average positive_sample_loss at step 5000: 0.002362
+2024-12-08 18:46:37 INFO     Training average negative_sample_loss at step 5000: 0.006413
+2024-12-08 18:46:37 INFO     Training average loss at step 5000: 0.004387
+2024-12-08 18:47:03 INFO     Training average positive_sample_loss at step 5100: 0.002359
+2024-12-08 18:47:03 INFO     Training average negative_sample_loss at step 5100: 0.006337
+2024-12-08 18:47:03 INFO     Training average loss at step 5100: 0.004348
+2024-12-08 18:47:25 INFO     Training average positive_sample_loss at step 5200: 0.002308
+2024-12-08 18:47:25 INFO     Training average negative_sample_loss at step 5200: 0.006266
+2024-12-08 18:47:25 INFO     Training average loss at step 5200: 0.004287
+2024-12-08 18:47:47 INFO     Training average positive_sample_loss at step 5300: 0.002312
+2024-12-08 18:47:47 INFO     Training average negative_sample_loss at step 5300: 0.006241
+2024-12-08 18:47:47 INFO     Training average loss at step 5300: 0.004276
+2024-12-08 18:48:08 INFO     Training average positive_sample_loss at step 5400: 0.002266
+2024-12-08 18:48:08 INFO     Training average negative_sample_loss at step 5400: 0.006157
+2024-12-08 18:48:08 INFO     Training average loss at step 5400: 0.004211
+2024-12-08 18:48:30 INFO     Training average positive_sample_loss at step 5500: 0.002238
+2024-12-08 18:48:30 INFO     Training average negative_sample_loss at step 5500: 0.006173
+2024-12-08 18:48:30 INFO     Training average loss at step 5500: 0.004206
+2024-12-08 18:48:52 INFO     Training average positive_sample_loss at step 5600: 0.002270
+2024-12-08 18:48:52 INFO     Training average negative_sample_loss at step 5600: 0.006097
+2024-12-08 18:48:52 INFO     Training average loss at step 5600: 0.004184
+2024-12-08 18:49:14 INFO     Training average positive_sample_loss at step 5700: 0.002206
+2024-12-08 18:49:14 INFO     Training average negative_sample_loss at step 5700: 0.006192
+2024-12-08 18:49:14 INFO     Training average loss at step 5700: 0.004199
+2024-12-08 18:49:35 INFO     Training average positive_sample_loss at step 5800: 0.002170
+2024-12-08 18:49:35 INFO     Training average negative_sample_loss at step 5800: 0.006081
+2024-12-08 18:49:35 INFO     Training average loss at step 5800: 0.004125
+2024-12-08 18:49:57 INFO     Training average positive_sample_loss at step 5900: 0.002218
+2024-12-08 18:49:57 INFO     Training average negative_sample_loss at step 5900: 0.006149
+2024-12-08 18:49:57 INFO     Training average loss at step 5900: 0.004183
+2024-12-08 18:50:19 INFO     Change learning_rate to 0.000004 at step 6000
+2024-12-08 18:50:19 INFO     Training average positive_sample_loss at step 6000: 0.002150
+2024-12-08 18:50:19 INFO     Training average negative_sample_loss at step 6000: 0.006184
+2024-12-08 18:50:19 INFO     Training average loss at step 6000: 0.004167
+2024-12-08 18:50:43 INFO     Training average positive_sample_loss at step 6100: 0.002179
+2024-12-08 18:50:43 INFO     Training average negative_sample_loss at step 6100: 0.005990
+2024-12-08 18:50:43 INFO     Training average loss at step 6100: 0.004084
+2024-12-08 18:51:05 INFO     Training average positive_sample_loss at step 6200: 0.002162
+2024-12-08 18:51:05 INFO     Training average negative_sample_loss at step 6200: 0.006208
+2024-12-08 18:51:05 INFO     Training average loss at step 6200: 0.004185
+2024-12-08 18:51:26 INFO     Training average positive_sample_loss at step 6300: 0.002131
+2024-12-08 18:51:26 INFO     Training average negative_sample_loss at step 6300: 0.006122
+2024-12-08 18:51:26 INFO     Training average loss at step 6300: 0.004127
+2024-12-08 18:51:48 INFO     Evaluating on Valid Dataset...
+2024-12-08 18:51:48 INFO     Evaluating the model... (0/22500)
+2024-12-08 18:51:50 INFO     Evaluating the model... (1000/22500)
+2024-12-08 18:51:52 INFO     Evaluating the model... (2000/22500)
+2024-12-08 18:51:54 INFO     Evaluating the model... (3000/22500)
+2024-12-08 18:51:56 INFO     Evaluating the model... (4000/22500)
+2024-12-08 18:51:58 INFO     Evaluating the model... (5000/22500)
+2024-12-08 18:52:00 INFO     Evaluating the model... (6000/22500)
+2024-12-08 18:52:02 INFO     Evaluating the model... (7000/22500)
+2024-12-08 18:52:05 INFO     Evaluating the model... (8000/22500)
+2024-12-08 18:52:07 INFO     Evaluating the model... (9000/22500)
+2024-12-08 18:52:10 INFO     Evaluating the model... (10000/22500)
+2024-12-08 18:52:12 INFO     Evaluating the model... (11000/22500)
+2024-12-08 18:52:15 INFO     Evaluating the model... (12000/22500)
+2024-12-08 18:52:18 INFO     Evaluating the model... (13000/22500)
+2024-12-08 18:52:20 INFO     Evaluating the model... (14000/22500)
+2024-12-08 18:52:23 INFO     Evaluating the model... (15000/22500)
+2024-12-08 18:52:26 INFO     Evaluating the model... (16000/22500)
+2024-12-08 18:52:28 INFO     Evaluating the model... (17000/22500)
+2024-12-08 18:52:31 INFO     Evaluating the model... (18000/22500)
+2024-12-08 18:52:33 INFO     Evaluating the model... (19000/22500)
+2024-12-08 18:52:35 INFO     Evaluating the model... (20000/22500)
+2024-12-08 18:52:37 INFO     Evaluating the model... (21000/22500)
+2024-12-08 18:52:39 INFO     Evaluating the model... (22000/22500)
+2024-12-08 18:52:40 INFO     Valid 1p MRR at step 6400: 0.188957
+2024-12-08 18:52:40 INFO     Valid 1p HITS1 at step 6400: 0.033133
+2024-12-08 18:52:40 INFO     Valid 1p HITS3 at step 6400: 0.298380
+2024-12-08 18:52:40 INFO     Valid 1p HITS10 at step 6400: 0.444396
+2024-12-08 18:52:40 INFO     Valid 1p num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid 2p MRR at step 6400: 0.081201
+2024-12-08 18:52:40 INFO     Valid 2p HITS1 at step 6400: 0.031767
+2024-12-08 18:52:40 INFO     Valid 2p HITS3 at step 6400: 0.099283
+2024-12-08 18:52:40 INFO     Valid 2p HITS10 at step 6400: 0.171806
+2024-12-08 18:52:40 INFO     Valid 2p num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid 3p MRR at step 6400: 0.021073
+2024-12-08 18:52:40 INFO     Valid 3p HITS1 at step 6400: 0.003999
+2024-12-08 18:52:40 INFO     Valid 3p HITS3 at step 6400: 0.018535
+2024-12-08 18:52:40 INFO     Valid 3p HITS10 at step 6400: 0.045944
+2024-12-08 18:52:40 INFO     Valid 3p num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid 2i MRR at step 6400: 0.200739
+2024-12-08 18:52:40 INFO     Valid 2i HITS1 at step 6400: 0.116733
+2024-12-08 18:52:40 INFO     Valid 2i HITS3 at step 6400: 0.241767
+2024-12-08 18:52:40 INFO     Valid 2i HITS10 at step 6400: 0.352327
+2024-12-08 18:52:40 INFO     Valid 2i num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid 3i MRR at step 6400: 0.208848
+2024-12-08 18:52:40 INFO     Valid 3i HITS1 at step 6400: 0.148500
+2024-12-08 18:52:40 INFO     Valid 3i HITS3 at step 6400: 0.231741
+2024-12-08 18:52:40 INFO     Valid 3i HITS10 at step 6400: 0.315823
+2024-12-08 18:52:40 INFO     Valid 3i num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid pi MRR at step 6400: 0.128107
+2024-12-08 18:52:40 INFO     Valid pi HITS1 at step 6400: 0.072333
+2024-12-08 18:52:40 INFO     Valid pi HITS3 at step 6400: 0.138627
+2024-12-08 18:52:40 INFO     Valid pi HITS10 at step 6400: 0.241116
+2024-12-08 18:52:40 INFO     Valid pi num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid ip MRR at step 6400: 0.169640
+2024-12-08 18:52:40 INFO     Valid ip HITS1 at step 6400: 0.109424
+2024-12-08 18:52:40 INFO     Valid ip HITS3 at step 6400: 0.202292
+2024-12-08 18:52:40 INFO     Valid ip HITS10 at step 6400: 0.273612
+2024-12-08 18:52:40 INFO     Valid ip num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid 2u-DNF MRR at step 6400: 0.046875
+2024-12-08 18:52:40 INFO     Valid 2u-DNF HITS1 at step 6400: 0.007253
+2024-12-08 18:52:40 INFO     Valid 2u-DNF HITS3 at step 6400: 0.033092
+2024-12-08 18:52:40 INFO     Valid 2u-DNF HITS10 at step 6400: 0.126737
+2024-12-08 18:52:40 INFO     Valid 2u-DNF num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid up-DNF MRR at step 6400: 0.145264
+2024-12-08 18:52:40 INFO     Valid up-DNF HITS1 at step 6400: 0.103272
+2024-12-08 18:52:40 INFO     Valid up-DNF HITS3 at step 6400: 0.156872
+2024-12-08 18:52:40 INFO     Valid up-DNF HITS10 at step 6400: 0.221051
+2024-12-08 18:52:40 INFO     Valid up-DNF num_queries at step 6400: 2500.000000
+2024-12-08 18:52:40 INFO     Valid average MRR at step 6400: 0.132300
+2024-12-08 18:52:40 INFO     Valid average HITS1 at step 6400: 0.069602
+2024-12-08 18:52:40 INFO     Valid average HITS3 at step 6400: 0.157843
+2024-12-08 18:52:40 INFO     Valid average HITS10 at step 6400: 0.243646
+2024-12-08 18:52:40 INFO     Evaluating on Test Dataset...
+2024-12-08 18:52:41 INFO     Evaluating the model... (0/5850)
+2024-12-08 18:52:43 INFO     Evaluating the model... (1000/5850)
+2024-12-08 18:52:45 INFO     Evaluating the model... (2000/5850)
+2024-12-08 18:52:47 INFO     Evaluating the model... (3000/5850)
+2024-12-08 18:52:50 INFO     Evaluating the model... (4000/5850)
+2024-12-08 18:52:52 INFO     Evaluating the model... (5000/5850)
+2024-12-08 18:52:54 INFO     Test 1p MRR at step 6400: 0.948853
+2024-12-08 18:52:54 INFO     Test 1p HITS1 at step 6400: 0.897706
+2024-12-08 18:52:54 INFO     Test 1p HITS3 at step 6400: 1.000000
+2024-12-08 18:52:54 INFO     Test 1p HITS10 at step 6400: 1.000000
+2024-12-08 18:52:54 INFO     Test 1p num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test 2p MRR at step 6400: 0.956827
+2024-12-08 18:52:54 INFO     Test 2p HITS1 at step 6400: 0.925068
+2024-12-08 18:52:54 INFO     Test 2p HITS3 at step 6400: 0.987649
+2024-12-08 18:52:54 INFO     Test 2p HITS10 at step 6400: 0.991978
+2024-12-08 18:52:54 INFO     Test 2p num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test 3p MRR at step 6400: 0.905774
+2024-12-08 18:52:54 INFO     Test 3p HITS1 at step 6400: 0.850363
+2024-12-08 18:52:54 INFO     Test 3p HITS3 at step 6400: 0.954701
+2024-12-08 18:52:54 INFO     Test 3p HITS10 at step 6400: 0.982745
+2024-12-08 18:52:54 INFO     Test 3p num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test 2i MRR at step 6400: 0.894755
+2024-12-08 18:52:54 INFO     Test 2i HITS1 at step 6400: 0.826773
+2024-12-08 18:52:54 INFO     Test 2i HITS3 at step 6400: 0.961423
+2024-12-08 18:52:54 INFO     Test 2i HITS10 at step 6400: 0.998932
+2024-12-08 18:52:54 INFO     Test 2i num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test 3i MRR at step 6400: 0.886731
+2024-12-08 18:52:54 INFO     Test 3i HITS1 at step 6400: 0.831395
+2024-12-08 18:52:54 INFO     Test 3i HITS3 at step 6400: 0.928908
+2024-12-08 18:52:54 INFO     Test 3i HITS10 at step 6400: 0.992622
+2024-12-08 18:52:54 INFO     Test 3i num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test pi MRR at step 6400: 0.964129
+2024-12-08 18:52:54 INFO     Test pi HITS1 at step 6400: 0.944742
+2024-12-08 18:52:54 INFO     Test pi HITS3 at step 6400: 0.980549
+2024-12-08 18:52:54 INFO     Test pi HITS10 at step 6400: 0.992835
+2024-12-08 18:52:54 INFO     Test pi num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test ip MRR at step 6400: 0.894472
+2024-12-08 18:52:54 INFO     Test ip HITS1 at step 6400: 0.857000
+2024-12-08 18:52:54 INFO     Test ip HITS3 at step 6400: 0.921434
+2024-12-08 18:52:54 INFO     Test ip HITS10 at step 6400: 0.951228
+2024-12-08 18:52:54 INFO     Test ip num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test 2u-DNF MRR at step 6400: 0.546015
+2024-12-08 18:52:54 INFO     Test 2u-DNF HITS1 at step 6400: 0.217075
+2024-12-08 18:52:54 INFO     Test 2u-DNF HITS3 at step 6400: 0.999359
+2024-12-08 18:52:54 INFO     Test 2u-DNF HITS10 at step 6400: 1.000000
+2024-12-08 18:52:54 INFO     Test 2u-DNF num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test up-DNF MRR at step 6400: 0.926743
+2024-12-08 18:52:54 INFO     Test up-DNF HITS1 at step 6400: 0.873236
+2024-12-08 18:52:54 INFO     Test up-DNF HITS3 at step 6400: 0.985930
+2024-12-08 18:52:54 INFO     Test up-DNF HITS10 at step 6400: 0.997175
+2024-12-08 18:52:54 INFO     Test up-DNF num_queries at step 6400: 650.000000
+2024-12-08 18:52:54 INFO     Test average MRR at step 6400: 0.880478
+2024-12-08 18:52:54 INFO     Test average HITS1 at step 6400: 0.802595
+2024-12-08 18:52:54 INFO     Test average HITS3 at step 6400: 0.968884
+2024-12-08 18:52:54 INFO     Test average HITS10 at step 6400: 0.989724
+2024-12-08 18:52:54 INFO     Training average positive_sample_loss at step 6400: 0.002150
+2024-12-08 18:52:54 INFO     Training average negative_sample_loss at step 6400: 0.006116
+2024-12-08 18:52:54 INFO     Training average loss at step 6400: 0.004133
+2024-12-08 18:53:16 INFO     Training average positive_sample_loss at step 6500: 0.002141
+2024-12-08 18:53:16 INFO     Training average negative_sample_loss at step 6500: 0.006126
+2024-12-08 18:53:16 INFO     Training average loss at step 6500: 0.004134
+2024-12-08 18:53:38 INFO     Training average positive_sample_loss at step 6600: 0.002141
+2024-12-08 18:53:38 INFO     Training average negative_sample_loss at step 6600: 0.005998
+2024-12-08 18:53:38 INFO     Training average loss at step 6600: 0.004070
+2024-12-08 18:53:59 INFO     Training average positive_sample_loss at step 6700: 0.002170
+2024-12-08 18:53:59 INFO     Training average negative_sample_loss at step 6700: 0.005990
+2024-12-08 18:53:59 INFO     Training average loss at step 6700: 0.004080
+2024-12-08 18:54:21 INFO     Training average positive_sample_loss at step 6800: 0.002111
+2024-12-08 18:54:21 INFO     Training average negative_sample_loss at step 6800: 0.006199
+2024-12-08 18:54:21 INFO     Training average loss at step 6800: 0.004155
+2024-12-08 18:54:43 INFO     Training average positive_sample_loss at step 6900: 0.002158
+2024-12-08 18:54:43 INFO     Training average negative_sample_loss at step 6900: 0.006185
+2024-12-08 18:54:43 INFO     Training average loss at step 6900: 0.004172
+2024-12-08 18:55:04 INFO     Training average positive_sample_loss at step 7000: 0.002125
+2024-12-08 18:55:04 INFO     Training average negative_sample_loss at step 7000: 0.006019
+2024-12-08 18:55:04 INFO     Training average loss at step 7000: 0.004072
+2024-12-08 18:55:29 INFO     Training average positive_sample_loss at step 7100: 0.002111
+2024-12-08 18:55:29 INFO     Training average negative_sample_loss at step 7100: 0.005932
+2024-12-08 18:55:29 INFO     Training average loss at step 7100: 0.004021
+2024-12-08 18:55:51 INFO     Training average positive_sample_loss at step 7200: 0.002131
+2024-12-08 18:55:51 INFO     Training average negative_sample_loss at step 7200: 0.006121
+2024-12-08 18:55:51 INFO     Training average loss at step 7200: 0.004126
+2024-12-08 18:56:12 INFO     Training average positive_sample_loss at step 7300: 0.002125
+2024-12-08 18:56:12 INFO     Training average negative_sample_loss at step 7300: 0.006013
+2024-12-08 18:56:12 INFO     Training average loss at step 7300: 0.004069
+2024-12-08 18:56:34 INFO     Training average positive_sample_loss at step 7400: 0.002107
+2024-12-08 18:56:34 INFO     Training average negative_sample_loss at step 7400: 0.006119
+2024-12-08 18:56:34 INFO     Training average loss at step 7400: 0.004113
+2024-12-08 18:56:56 INFO     Training average positive_sample_loss at step 7500: 0.002099
+2024-12-08 18:56:56 INFO     Training average negative_sample_loss at step 7500: 0.006054
+2024-12-08 18:56:56 INFO     Training average loss at step 7500: 0.004077
+2024-12-08 18:57:17 INFO     Training average positive_sample_loss at step 7600: 0.002076
+2024-12-08 18:57:17 INFO     Training average negative_sample_loss at step 7600: 0.006068
+2024-12-08 18:57:17 INFO     Training average loss at step 7600: 0.004072
+2024-12-08 18:57:39 INFO     Training average positive_sample_loss at step 7700: 0.002089
+2024-12-08 18:57:39 INFO     Training average negative_sample_loss at step 7700: 0.006031
+2024-12-08 18:57:39 INFO     Training average loss at step 7700: 0.004060
+2024-12-08 18:58:00 INFO     Training average positive_sample_loss at step 7800: 0.002105
+2024-12-08 18:58:00 INFO     Training average negative_sample_loss at step 7800: 0.005984
+2024-12-08 18:58:00 INFO     Training average loss at step 7800: 0.004044
+2024-12-08 18:58:22 INFO     Training average positive_sample_loss at step 7900: 0.002096
+2024-12-08 18:58:22 INFO     Training average negative_sample_loss at step 7900: 0.006045
+2024-12-08 18:58:22 INFO     Training average loss at step 7900: 0.004071
+2024-12-08 18:58:43 INFO     Evaluating on Test Dataset...
+2024-12-08 18:58:43 INFO     Evaluating the model... (0/5850)
+2024-12-08 18:58:45 INFO     Evaluating the model... (1000/5850)
+2024-12-08 18:58:47 INFO     Evaluating the model... (2000/5850)
+2024-12-08 18:58:50 INFO     Evaluating the model... (3000/5850)
+2024-12-08 18:58:53 INFO     Evaluating the model... (4000/5850)
+2024-12-08 18:58:55 INFO     Evaluating the model... (5000/5850)
+2024-12-08 18:58:57 INFO     Test 1p MRR at step 7999: 0.953283
+2024-12-08 18:58:57 INFO     Test 1p HITS1 at step 7999: 0.906566
+2024-12-08 18:58:57 INFO     Test 1p HITS3 at step 7999: 1.000000
+2024-12-08 18:58:57 INFO     Test 1p HITS10 at step 7999: 1.000000
+2024-12-08 18:58:57 INFO     Test 1p num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test 2p MRR at step 7999: 0.959245
+2024-12-08 18:58:57 INFO     Test 2p HITS1 at step 7999: 0.929380
+2024-12-08 18:58:57 INFO     Test 2p HITS3 at step 7999: 0.988135
+2024-12-08 18:58:57 INFO     Test 2p HITS10 at step 7999: 0.992244
+2024-12-08 18:58:57 INFO     Test 2p num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test 3p MRR at step 7999: 0.907919
+2024-12-08 18:58:57 INFO     Test 3p HITS1 at step 7999: 0.852869
+2024-12-08 18:58:57 INFO     Test 3p HITS3 at step 7999: 0.956460
+2024-12-08 18:58:57 INFO     Test 3p HITS10 at step 7999: 0.983807
+2024-12-08 18:58:57 INFO     Test 3p num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test 2i MRR at step 7999: 0.899772
+2024-12-08 18:58:57 INFO     Test 2i HITS1 at step 7999: 0.834916
+2024-12-08 18:58:57 INFO     Test 2i HITS3 at step 7999: 0.963372
+2024-12-08 18:58:57 INFO     Test 2i HITS10 at step 7999: 0.999465
+2024-12-08 18:58:57 INFO     Test 2i num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test 3i MRR at step 7999: 0.889616
+2024-12-08 18:58:57 INFO     Test 3i HITS1 at step 7999: 0.834184
+2024-12-08 18:58:57 INFO     Test 3i HITS3 at step 7999: 0.932743
+2024-12-08 18:58:57 INFO     Test 3i HITS10 at step 7999: 0.993455
+2024-12-08 18:58:57 INFO     Test 3i num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test pi MRR at step 7999: 0.965240
+2024-12-08 18:58:57 INFO     Test pi HITS1 at step 7999: 0.946316
+2024-12-08 18:58:57 INFO     Test pi HITS3 at step 7999: 0.980904
+2024-12-08 18:58:57 INFO     Test pi HITS10 at step 7999: 0.993036
+2024-12-08 18:58:57 INFO     Test pi num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test ip MRR at step 7999: 0.897001
+2024-12-08 18:58:57 INFO     Test ip HITS1 at step 7999: 0.860180
+2024-12-08 18:58:57 INFO     Test ip HITS3 at step 7999: 0.923407
+2024-12-08 18:58:57 INFO     Test ip HITS10 at step 7999: 0.951652
+2024-12-08 18:58:57 INFO     Test ip num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test 2u-DNF MRR at step 7999: 0.559400
+2024-12-08 18:58:57 INFO     Test 2u-DNF HITS1 at step 7999: 0.237107
+2024-12-08 18:58:57 INFO     Test 2u-DNF HITS3 at step 7999: 0.999359
+2024-12-08 18:58:57 INFO     Test 2u-DNF HITS10 at step 7999: 1.000000
+2024-12-08 18:58:57 INFO     Test 2u-DNF num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test up-DNF MRR at step 7999: 0.929861
+2024-12-08 18:58:57 INFO     Test up-DNF HITS1 at step 7999: 0.877722
+2024-12-08 18:58:57 INFO     Test up-DNF HITS3 at step 7999: 0.987608
+2024-12-08 18:58:57 INFO     Test up-DNF HITS10 at step 7999: 0.997535
+2024-12-08 18:58:57 INFO     Test up-DNF num_queries at step 7999: 650.000000
+2024-12-08 18:58:57 INFO     Test average MRR at step 7999: 0.884593
+2024-12-08 18:58:57 INFO     Test average HITS1 at step 7999: 0.808804
+2024-12-08 18:58:57 INFO     Test average HITS3 at step 7999: 0.970221
+2024-12-08 18:58:57 INFO     Test average HITS10 at step 7999: 0.990133
+2024-12-08 18:58:57 INFO     Training finished!!
